@@ -1,0 +1,151 @@
+@relation 'Haralick Femur Literal ROI '
+
+@attribute File {'Literal Femur of Normal_1.jpg','Literal Femur of Normal_10.jpg','Literal Femur of Normal_11.jpg','Literal Femur of Normal_12.jpg','Literal Femur of Normal_13.jpg','Literal Femur of Normal_14.jpg','Literal Femur of Normal_15.jpg','Literal Femur of Normal_16.jpg','Literal Femur of Normal_17.jpg','Literal Femur of Normal_18.jpg','Literal Femur of Normal_19.jpg','Literal Femur of Normal_2.jpg','Literal Femur of Normal_20.jpg','Literal Femur of Normal_21.jpg','Literal Femur of Normal_22.jpg','Literal Femur of Normal_23.jpg','Literal Femur of Normal_24.jpg','Literal Femur of Normal_25.jpg','Literal Femur of Normal_26.jpg','Literal Femur of Normal_27.jpg','Literal Femur of Normal_28.jpg','Literal Femur of Normal_29.jpg','Literal Femur of Normal_3.jpg','Literal Femur of Normal_30.jpg','Literal Femur of Normal_31.jpg','Literal Femur of Normal_32.jpg','Literal Femur of Normal_33.jpg','Literal Femur of Normal_34.jpg','Literal Femur of Normal_35.jpg','Literal Femur of Normal_36.jpg','Literal Femur of Normal_37.jpg','Literal Femur of Normal_38.jpg','Literal Femur of Normal_39.jpg','Literal Femur of Normal_4.jpg','Literal Femur of Normal_40.jpg','Literal Femur of Normal_41.jpg','Literal Femur of Normal_42.jpg','Literal Femur of Normal_43.jpg','Literal Femur of Normal_44.jpg','Literal Femur of Normal_45.jpg','Literal Femur of Normal_46.jpg','Literal Femur of Normal_47.jpg','Literal Femur of Normal_48.jpg','Literal Femur of Normal_49.jpg','Literal Femur of Normal_5.jpg','Literal Femur of Normal_50.jpg','Literal Femur of Normal_51.jpg','Literal Femur of Normal_52.jpg','Literal Femur of Normal_53.jpg','Literal Femur of Normal_54.jpg','Literal Femur of Normal_55.jpg','Literal Femur of Normal_56.jpg','Literal Femur of Normal_57.jpg','Literal Femur of Normal_58.jpg','Literal Femur of Normal_59.jpg','Literal Femur of Normal_6.jpg','Literal Femur of Normal_60.jpg','Literal Femur of Normal_61.jpg','Literal Femur of Normal_62.jpg','Literal Femur of Normal_63.jpg','Literal Femur of Normal_7.jpg','Literal Femur of Normal_8.jpg','Literal Femur of Normal_9.jpg','Literal Femur of OA_1.jpg','Literal Femur of OA_10.jpg','Literal Femur of OA_11.jpg','Literal Femur of OA_12.jpg','Literal Femur of OA_13.jpg','Literal Femur of OA_14.jpg','Literal Femur of OA_15.jpg','Literal Femur of OA_16.jpg','Literal Femur of OA_17.jpg','Literal Femur of OA_18.jpg','Literal Femur of OA_19.jpg','Literal Femur of OA_2.jpg','Literal Femur of OA_20.jpg','Literal Femur of OA_21.jpg','Literal Femur of OA_22.jpg','Literal Femur of OA_23.jpg','Literal Femur of OA_24.jpg','Literal Femur of OA_25.jpg','Literal Femur of OA_26.jpg','Literal Femur of OA_27.jpg','Literal Femur of OA_28.jpg','Literal Femur of OA_29.jpg','Literal Femur of OA_3.jpg','Literal Femur of OA_30.jpg','Literal Femur of OA_31.jpg','Literal Femur of OA_32.jpg','Literal Femur of OA_33.jpg','Literal Femur of OA_34.jpg','Literal Femur of OA_35.jpg','Literal Femur of OA_36.jpg','Literal Femur of OA_37.jpg','Literal Femur of OA_38.jpg','Literal Femur of OA_39.jpg','Literal Femur of OA_4.jpg','Literal Femur of OA_40.jpg','Literal Femur of OA_41.jpg','Literal Femur of OA_42.jpg','Literal Femur of OA_43.jpg','Literal Femur of OA_44.jpg','Literal Femur of OA_45.jpg','Literal Femur of OA_46.jpg','Literal Femur of OA_47.jpg','Literal Femur of OA_48.jpg','Literal Femur of OA_49.jpg','Literal Femur of OA_5.jpg','Literal Femur of OA_50.jpg','Literal Femur of OA_51.jpg','Literal Femur of OA_52.jpg','Literal Femur of OA_53.jpg','Literal Femur of OA_54.jpg','Literal Femur of OA_55.jpg','Literal Femur of OA_56.jpg','Literal Femur of OA_57.jpg','Literal Femur of OA_58.jpg','Literal Femur of OA_59.jpg','Literal Femur of OA_6.jpg','Literal Femur of OA_60.jpg','Literal Femur of OA_61.jpg','Literal Femur of OA_62.jpg','Literal Femur of OA_63.jpg','Literal Femur of OA_64.jpg','Literal Femur of OA_65.jpg','Literal Femur of OA_66.jpg','Literal Femur of OA_67.jpg','Literal Femur of OA_68.jpg','Literal Femur of OA_7.jpg','Literal Femur of OA_8.jpg','Literal Femur of OA_9.jpg'}
+@attribute Feature_1 numeric
+@attribute Feature_2 numeric
+@attribute Feature_3 numeric
+@attribute Feature_4 numeric
+@attribute Feature_5 numeric
+@attribute Feature_6 numeric
+@attribute Feature_7 numeric
+@attribute Feature_8 numeric
+@attribute Feature_9 numeric
+@attribute Feature_10 numeric
+@attribute Feature_11 numeric
+@attribute Feature_12 numeric
+@attribute Feature_13 numeric
+@attribute Feature_14 numeric
+@attribute class {Nor,OA}
+
+@data
+'Literal Femur of Normal_1.jpg',0.727,0.0867,0.553,47.4,0.957,13.8,190,0.531,0.852,0.0807,0.295,-0.284,0.495,0.163,Nor
+'Literal Femur of Normal_10.jpg',0.314,0.231,0.588,29.7,0.884,10.9,119,1.17,1.92,0.189,0.541,-0.257,0.658,0.361,Nor
+'Literal Femur of Normal_11.jpg',0.346,0.192,0.618,30.6,0.904,11,123,1.06,1.72,0.16,0.489,-0.296,0.67,0.389,Nor
+'Literal Femur of Normal_12.jpg',0.372,0.153,0.702,30.7,0.924,11.1,123,1.04,1.66,0.13,0.428,-0.389,0.742,0.403,Nor
+'Literal Femur of Normal_13.jpg',0.434,0.156,0.695,32.7,0.922,11.4,131,1.07,1.7,0.133,0.433,-0.375,0.737,0.281,Nor
+'Literal Femur of Normal_14.jpg',0.792,0.0754,0.458,35.1,0.962,11.9,141,0.441,0.711,0.0722,0.268,-0.217,0.399,0.131,Nor
+'Literal Femur of Normal_15.jpg',0.678,0.109,0.523,26.2,0.946,10.2,105,0.627,1.01,0.0972,0.344,-0.25,0.501,0.174,Nor
+'Literal Femur of Normal_16.jpg',0.345,0.193,0.621,30.7,0.903,11.1,123,1.07,1.74,0.16,0.491,-0.296,0.674,0.385,Nor
+'Literal Femur of Normal_17.jpg',0.577,0.15,0.563,25.2,0.925,10,101,0.892,1.44,0.128,0.423,-0.277,0.609,0.146,Nor
+'Literal Femur of Normal_18.jpg',0.419,0.182,0.583,44.7,0.909,13.4,179,0.963,1.57,0.152,0.474,-0.269,0.621,0.295,Nor
+'Literal Femur of Normal_19.jpg',0.286,0.209,0.784,31.5,0.896,11.2,126,1.49,2.36,0.172,0.513,-0.429,0.851,0.304,Nor
+'Literal Femur of Normal_2.jpg',0.576,0.16,0.449,33.9,0.92,11.7,136,0.74,1.23,0.135,0.439,-0.176,0.459,0.202,Nor
+'Literal Femur of Normal_20.jpg',0.685,0.11,0.548,35.1,0.945,11.9,141,0.69,1.11,0.0985,0.348,-0.27,0.541,0.148,Nor
+'Literal Femur of Normal_21.jpg',0.337,0.239,0.6,27.8,0.881,10.5,112,1.25,2.04,0.195,0.552,-0.26,0.675,0.28,Nor
+'Literal Femur of Normal_22.jpg',0.317,0.224,0.637,40.6,0.888,12.7,163,1.24,2.01,0.183,0.532,-0.295,0.708,0.344,Nor
+'Literal Femur of Normal_23.jpg',0.936,0.0283,0.226,35.9,0.986,12,144,0.177,0.284,0.0369,0.129,-0.101,0.172,0.0415,Nor
+'Literal Femur of Normal_24.jpg',0.387,0.228,0.548,44.6,0.887,13.4,179,1.09,1.81,0.187,0.539,-0.22,0.601,0.271,Nor
+'Literal Femur of Normal_25.jpg',0.359,0.179,0.69,31.1,0.911,11.1,125,1.15,1.83,0.15,0.47,-0.358,0.742,0.355,Nor
+'Literal Femur of Normal_26.jpg',0.468,0.161,0.644,27,0.919,10.4,108,1.03,1.64,0.137,0.442,-0.33,0.691,0.24,Nor
+'Literal Femur of Normal_27.jpg',0.682,0.106,0.573,36,0.947,12,145,0.708,1.13,0.0952,0.338,-0.304,0.577,0.121,Nor
+'Literal Femur of Normal_28.jpg',0.457,0.196,0.599,35.9,0.902,12,144,1.11,1.8,0.162,0.495,-0.279,0.665,0.167,Nor
+'Literal Femur of Normal_29.jpg',0.577,0.122,0.661,33.9,0.939,11.6,136,0.839,1.33,0.107,0.371,-0.356,0.662,0.208,Nor
+'Literal Femur of Normal_3.jpg',0.324,0.229,0.554,30.6,0.886,11.1,123,1.1,1.82,0.187,0.538,-0.231,0.615,0.363,Nor
+'Literal Femur of Normal_30.jpg',0.295,0.212,0.726,29.2,0.895,10.8,117,1.35,2.17,0.175,0.518,-0.375,0.795,0.368,Nor
+'Literal Femur of Normal_31.jpg',0.372,0.151,0.715,30.7,0.925,11.1,123,1.06,1.68,0.129,0.424,-0.402,0.755,0.4,Nor
+'Literal Femur of Normal_32.jpg',0.573,0.104,0.701,33.6,0.948,11.6,135,0.79,1.24,0.0936,0.334,-0.411,0.689,0.23,Nor
+'Literal Femur of Normal_33.jpg',0.88,0.045,0.431,35.8,0.977,12,144,0.311,0.494,0.0494,0.184,-0.229,0.347,0.0762,Nor
+'Literal Femur of Normal_34.jpg',0.314,0.213,0.674,30,0.894,10.9,121,1.25,2.02,0.175,0.519,-0.327,0.739,0.37,Nor
+'Literal Femur of Normal_35.jpg',0.436,0.149,0.781,31.8,0.925,11.3,128,1.1,1.74,0.128,0.422,-0.448,0.797,0.253,Nor
+'Literal Femur of Normal_36.jpg',0.344,0.235,0.688,32,0.884,11.3,128,1.32,2.15,0.192,0.548,-0.318,0.746,0.26,Nor
+'Literal Femur of Normal_37.jpg',0.544,0.158,0.583,25.8,0.921,10.2,104,0.941,1.52,0.134,0.437,-0.286,0.63,0.178,Nor
+'Literal Femur of Normal_38.jpg',0.575,0.127,0.624,33.9,0.937,11.7,136,0.822,1.31,0.111,0.38,-0.323,0.63,0.212,Nor
+'Literal Femur of Normal_39.jpg',0.378,0.16,0.697,28.9,0.92,10.7,116,1.09,1.73,0.136,0.44,-0.38,0.746,0.354,Nor
+'Literal Femur of Normal_4.jpg',0.364,0.17,0.659,43,0.915,13.1,173,1.03,1.66,0.143,0.456,-0.341,0.704,0.387,Nor
+'Literal Femur of Normal_40.jpg',0.501,0.133,0.664,33,0.933,11.5,133,0.884,1.41,0.116,0.393,-0.358,0.678,0.262,Nor
+'Literal Femur of Normal_41.jpg',0.542,0.156,0.582,23.9,0.922,9.77,96,0.926,1.49,0.132,0.432,-0.284,0.624,0.192,Nor
+'Literal Femur of Normal_42.jpg',0.598,0.102,0.699,33.8,0.949,11.6,136,0.784,1.23,0.0922,0.33,-0.407,0.683,0.21,Nor
+'Literal Femur of Normal_43.jpg',0.25,0.232,0.759,37.3,0.884,12.2,150,1.5,2.39,0.189,0.542,-0.394,0.831,0.263,Nor
+'Literal Femur of Normal_44.jpg',0.548,0.141,0.594,33.7,0.929,11.6,136,0.847,1.36,0.122,0.407,-0.292,0.611,0.222,Nor
+'Literal Femur of Normal_45.jpg',0.352,0.168,0.701,30,0.916,10.9,120,1.12,1.79,0.142,0.453,-0.378,0.752,0.406,Nor
+'Literal Femur of Normal_46.jpg',0.645,0.134,0.501,36.2,0.933,12,145,0.768,1.24,0.116,0.395,-0.233,0.528,0.131,Nor
+'Literal Femur of Normal_47.jpg',0.956,0.0182,0.315,35.7,0.991,12,143,0.122,0.194,0.0293,0.091,-0.157,0.18,0.0533,Nor
+'Literal Femur of Normal_48.jpg',0.603,0.131,0.598,35,0.935,11.8,141,0.842,1.35,0.114,0.388,-0.308,0.622,0.168,Nor
+'Literal Femur of Normal_49.jpg',0.414,0.181,0.685,32.1,0.909,11.3,129,1.1,1.77,0.152,0.474,-0.34,0.718,0.27,Nor
+'Literal Femur of Normal_5.jpg',0.532,0.191,0.392,38.3,0.905,12.4,154,0.789,1.33,0.159,0.487,-0.132,0.414,0.205,Nor
+'Literal Femur of Normal_50.jpg',0.537,0.153,0.617,33.8,0.924,11.6,136,0.917,1.48,0.13,0.428,-0.307,0.644,0.209,Nor
+'Literal Femur of Normal_51.jpg',0.354,0.196,0.6,43.3,0.902,13.1,174,1.04,1.69,0.162,0.494,-0.279,0.65,0.363,Nor
+'Literal Femur of Normal_52.jpg',0.353,0.193,0.619,41.2,0.903,12.8,165,1.08,1.75,0.161,0.491,-0.297,0.676,0.362,Nor
+'Literal Femur of Normal_53.jpg',0.494,0.193,0.546,35.8,0.904,12,144,1.03,1.69,0.161,0.492,-0.24,0.608,0.159,Nor
+'Literal Femur of Normal_54.jpg',0.338,0.184,0.684,41.3,0.908,12.8,166,1.17,1.87,0.154,0.478,-0.356,0.744,0.382,Nor
+'Literal Femur of Normal_55.jpg',0.863,0.0389,0.621,35.3,0.981,11.9,142,0.325,0.508,0.0449,0.164,-0.384,0.463,0.108,Nor
+'Literal Femur of Normal_56.jpg',0.619,0.151,0.406,37.7,0.925,12.3,151,0.682,1.13,0.129,0.424,-0.152,0.412,0.181,Nor
+'Literal Femur of Normal_57.jpg',0.355,0.276,0.417,39.7,0.863,12.6,159,1.09,1.86,0.223,0.591,-0.13,0.477,0.261,Nor
+'Literal Femur of Normal_58.jpg',0.462,0.172,0.68,35.6,0.914,11.9,143,1.13,1.8,0.145,0.459,-0.365,0.743,0.168,Nor
+'Literal Femur of Normal_59.jpg',0.667,0.126,0.468,37,0.937,12.2,149,0.688,1.12,0.11,0.379,-0.204,0.474,0.158,Nor
+'Literal Femur of Normal_6.jpg',0.637,0.125,0.562,35.2,0.938,11.9,141,0.779,1.25,0.109,0.376,-0.281,0.579,0.155,Nor
+'Literal Femur of Normal_60.jpg',0.445,0.163,0.697,36.2,0.918,12,146,1.13,1.8,0.138,0.445,-0.379,0.754,0.176,Nor
+'Literal Femur of Normal_61.jpg',0.533,0.109,0.753,34.5,0.946,11.7,138,0.945,1.47,0.0972,0.344,-0.488,0.783,0.202,Nor
+'Literal Femur of Normal_62.jpg',0.395,0.17,0.73,24.7,0.915,9.9,99.2,1.22,1.93,0.143,0.457,-0.41,0.795,0.2,Nor
+'Literal Femur of Normal_63.jpg',0.731,0.101,0.478,24.8,0.95,9.97,99.6,0.608,0.979,0.0911,0.327,-0.231,0.474,0.113,Nor
+'Literal Femur of Normal_7.jpg',0.475,0.191,0.584,36.6,0.905,12.1,147,1.07,1.74,0.159,0.488,-0.274,0.651,0.171,Nor
+'Literal Femur of Normal_8.jpg',0.441,0.169,0.722,33.4,0.916,11.5,134,1.16,1.85,0.143,0.455,-0.389,0.768,0.227,Nor
+'Literal Femur of Normal_9.jpg',0.44,0.149,0.703,32.3,0.926,11.4,130,1.02,1.62,0.127,0.421,-0.382,0.731,0.289,Nor
+'Literal Femur of OA_1.jpg',0.375,0.187,0.609,40.7,0.907,12.8,164,1.03,1.67,0.156,0.481,-0.289,0.656,0.339,OA
+'Literal Femur of OA_10.jpg',0.4,0.118,0.778,19.5,0.941,8.79,78.2,1.03,1.61,0.104,0.363,-0.495,0.808,0.384,OA
+'Literal Femur of OA_11.jpg',0.252,0.304,0.669,33,0.85,11.4,132,1.54,2.54,0.245,0.62,-0.284,0.754,0.255,OA
+'Literal Femur of OA_12.jpg',0.414,0.175,0.693,26.3,0.913,10.2,106,1.18,1.87,0.147,0.464,-0.368,0.755,0.222,OA
+'Literal Femur of OA_13.jpg',0.35,0.193,0.618,29.6,0.904,10.9,119,1.07,1.73,0.16,0.49,-0.294,0.671,0.373,OA
+'Literal Femur of OA_14.jpg',0.195,0.318,0.731,27.5,0.843,10.4,110,1.69,2.77,0.255,0.634,-0.328,0.814,0.264,OA
+'Literal Femur of OA_15.jpg',0.666,0.0878,0.67,46.8,0.956,13.7,188,0.641,1.01,0.0815,0.297,-0.386,0.62,0.188,OA
+'Literal Femur of OA_16.jpg',0.24,0.246,0.808,42.8,0.878,13,172,1.66,2.64,0.201,0.561,-0.428,0.874,0.268,OA
+'Literal Femur of OA_17.jpg',0.335,0.226,0.7,16.5,0.887,8.07,66.5,1.38,2.21,0.185,0.534,-0.345,0.776,0.191,OA
+'Literal Femur of OA_18.jpg',0.314,0.223,0.667,32.6,0.889,11.4,131,1.3,2.1,0.183,0.531,-0.324,0.745,0.312,OA
+'Literal Femur of OA_19.jpg',0.614,0.137,0.521,34.5,0.932,11.8,139,0.77,1.25,0.118,0.399,-0.237,0.534,0.182,OA
+'Literal Femur of OA_2.jpg',0.76,0.074,0.581,36.8,0.963,12.2,148,0.52,0.824,0.0711,0.264,-0.323,0.522,0.144,OA
+'Literal Femur of OA_20.jpg',0.412,0.142,0.738,28.1,0.929,10.6,113,1.1,1.73,0.122,0.409,-0.433,0.784,0.308,OA
+'Literal Femur of OA_21.jpg',0.109,0.405,0.857,21.3,0.803,8.95,85.3,2.16,3.54,0.322,0.694,-0.417,0.919,0.19,OA
+'Literal Femur of OA_22.jpg',0.276,0.257,0.672,38.1,0.871,12.3,153,1.41,2.3,0.209,0.57,-0.309,0.754,0.261,OA
+'Literal Femur of OA_23.jpg',0.405,0.181,0.603,32.1,0.91,11.3,129,0.997,1.62,0.151,0.472,-0.285,0.645,0.309,OA
+'Literal Femur of OA_24.jpg',0.851,0.0553,0.439,36.3,0.972,12.1,146,0.357,0.571,0.0571,0.214,-0.22,0.363,0.101,OA
+'Literal Femur of OA_25.jpg',0.235,0.301,0.67,29.1,0.852,10.7,117,1.53,2.52,0.242,0.619,-0.286,0.754,0.311,OA
+'Literal Femur of OA_26.jpg',0.367,0.155,0.71,20.8,0.923,9.1,83.8,1.08,1.72,0.132,0.431,-0.398,0.757,0.4,OA
+'Literal Femur of OA_27.jpg',0.459,0.138,0.729,10.5,0.931,6.44,42.4,1.06,1.67,0.119,0.402,-0.422,0.769,0.254,OA
+'Literal Femur of OA_28.jpg',0.387,0.15,0.762,21.8,0.925,9.3,87.6,1.19,1.87,0.128,0.423,-0.447,0.811,0.318,OA
+'Literal Femur of OA_29.jpg',0.375,0.147,0.711,12.2,0.926,6.94,49.1,1.03,1.64,0.126,0.418,-0.401,0.749,0.412,OA
+'Literal Femur of OA_3.jpg',0.779,0.0675,0.575,34.9,0.966,11.8,140,0.458,0.728,0.0663,0.247,-0.316,0.488,0.144,OA
+'Literal Femur of OA_30.jpg',0.563,0.103,0.728,10.2,0.949,6.36,41.1,0.859,1.34,0.0929,0.332,-0.444,0.732,0.22,OA
+'Literal Femur of OA_31.jpg',0.354,0.208,0.638,31.8,0.896,11.3,128,1.19,1.92,0.171,0.511,-0.3,0.701,0.316,OA
+'Literal Femur of OA_32.jpg',0.317,0.211,0.659,19.9,0.895,8.88,79.8,1.24,1.99,0.174,0.515,-0.32,0.729,0.374,OA
+'Literal Femur of OA_33.jpg',0.67,0.12,0.515,35.4,0.94,11.9,142,0.719,1.16,0.106,0.367,-0.246,0.527,0.14,OA
+'Literal Femur of OA_34.jpg',0.398,0.16,0.659,28.9,0.92,10.7,116,0.984,1.58,0.135,0.439,-0.345,0.695,0.343,OA
+'Literal Femur of OA_35.jpg',0.444,0.154,0.685,22.1,0.923,9.38,88.8,1.02,1.62,0.131,0.43,-0.362,0.715,0.28,OA
+'Literal Femur of OA_36.jpg',0.34,0.202,0.743,16.8,0.899,8.14,67.6,1.38,2.2,0.167,0.504,-0.395,0.813,0.217,OA
+'Literal Femur of OA_37.jpg',0.435,0.178,0.587,32.7,0.911,11.4,131,0.974,1.58,0.149,0.468,-0.277,0.631,0.279,OA
+'Literal Femur of OA_38.jpg',0.23,0.273,0.731,28.4,0.865,10.6,114,1.57,2.55,0.221,0.591,-0.346,0.81,0.309,OA
+'Literal Femur of OA_39.jpg',0.304,0.234,0.703,15.3,0.883,7.76,61.6,1.42,2.28,0.192,0.545,-0.343,0.782,0.234,OA
+'Literal Femur of OA_4.jpg',0.551,0.143,0.612,34.5,0.929,11.7,139,0.907,1.45,0.123,0.41,-0.312,0.644,0.197,OA
+'Literal Femur of OA_40.jpg',0.384,0.171,0.641,13.2,0.914,7.23,53.1,1.01,1.62,0.144,0.458,-0.324,0.683,0.348,OA
+'Literal Femur of OA_41.jpg',0.486,0.165,0.635,17,0.918,8.22,68.2,1.04,1.66,0.139,0.447,-0.325,0.689,0.201,OA
+'Literal Femur of OA_42.jpg',0.781,0.0877,0.398,36.3,0.956,12.1,146,0.499,0.807,0.0814,0.297,-0.18,0.385,0.108,OA
+'Literal Femur of OA_43.jpg',0.521,0.138,0.633,27.2,0.931,10.4,109,0.881,1.41,0.119,0.401,-0.33,0.653,0.241,OA
+'Literal Femur of OA_44.jpg',0.358,0.227,0.658,32.8,0.887,11.4,132,1.28,2.08,0.186,0.537,-0.303,0.725,0.258,OA
+'Literal Femur of OA_45.jpg',0.777,0.0821,0.466,35.3,0.959,11.9,142,0.504,0.809,0.0772,0.284,-0.224,0.43,0.124,OA
+'Literal Femur of OA_46.jpg',0.376,0.145,0.755,21.9,0.927,9.32,87.8,1.14,1.79,0.124,0.414,-0.451,0.805,0.347,OA
+'Literal Femur of OA_47.jpg',0.603,0.118,0.642,15.3,0.941,7.82,61.7,0.832,1.32,0.104,0.363,-0.356,0.66,0.175,OA
+'Literal Femur of OA_48.jpg',0.335,0.196,0.68,31.5,0.902,11.2,127,1.22,1.96,0.162,0.494,-0.344,0.746,0.357,OA
+'Literal Femur of OA_49.jpg',0.28,0.332,0.339,30.7,0.835,11.1,123,1.11,1.93,0.265,0.637,-0.0853,0.397,0.288,OA
+'Literal Femur of OA_5.jpg',0.702,0.109,0.501,35.5,0.945,11.9,143,0.66,1.06,0.0977,0.345,-0.244,0.505,0.131,OA
+'Literal Femur of OA_50.jpg',0.684,0.125,0.397,50.5,0.938,14.2,203,0.582,0.964,0.109,0.376,-0.152,0.383,0.162,OA
+'Literal Femur of OA_51.jpg',0.414,0.186,0.572,44.6,0.907,13.4,179,0.963,1.58,0.155,0.481,-0.259,0.612,0.297,OA
+'Literal Femur of OA_52.jpg',0.278,0.13,0.88,37.4,0.935,12.2,150,1.41,2.16,0.113,0.387,-0.603,0.92,0.31,OA
+'Literal Femur of OA_53.jpg',0.474,0.212,0.507,35,0.894,11.8,141,1.05,1.73,0.175,0.518,-0.202,0.568,0.182,OA
+'Literal Femur of OA_54.jpg',0.631,0.119,0.549,46.8,0.94,13.7,188,0.673,1.09,0.105,0.366,-0.264,0.531,0.196,OA
+'Literal Femur of OA_55.jpg',0.706,0.0988,0.559,35.5,0.951,11.9,143,0.658,1.05,0.0897,0.322,-0.295,0.552,0.132,OA
+'Literal Femur of OA_56.jpg',0.953,0.0209,0.221,35.8,0.99,12,144,0.138,0.22,0.0313,0.101,-0.102,0.153,0.0366,OA
+'Literal Femur of OA_57.jpg',0.423,0.209,0.494,28,0.896,10.6,113,0.946,1.57,0.172,0.512,-0.193,0.535,0.268,OA
+'Literal Femur of OA_58.jpg',0.541,0.185,0.403,33.8,0.908,11.6,136,0.789,1.32,0.154,0.478,-0.14,0.424,0.204,OA
+'Literal Femur of OA_59.jpg',0.34,0.207,0.665,31.5,0.896,11.2,126,1.23,1.98,0.171,0.51,-0.323,0.731,0.325,OA
+'Literal Femur of OA_6.jpg',0.68,0.109,0.526,34.7,0.945,11.8,139,0.651,1.05,0.0976,0.345,-0.254,0.512,0.167,OA
+'Literal Femur of OA_60.jpg',0.531,0.0921,0.78,33.3,0.954,11.5,134,0.882,1.36,0.0847,0.307,-0.509,0.779,0.253,OA
+'Literal Femur of OA_61.jpg',0.588,0.152,0.466,34,0.924,11.7,136,0.731,1.21,0.13,0.426,-0.189,0.472,0.2,OA
+'Literal Femur of OA_62.jpg',0.483,0.16,0.643,33.7,0.92,11.6,135,1.01,1.62,0.136,0.44,-0.329,0.687,0.232,OA
+'Literal Femur of OA_63.jpg',0.334,0.237,0.654,35.9,0.882,12,144,1.33,2.16,0.193,0.548,-0.304,0.734,0.194,OA
+'Literal Femur of OA_64.jpg',0.462,0.171,0.577,32.8,0.915,11.5,132,0.915,1.49,0.144,0.457,-0.267,0.607,0.267,OA
+'Literal Femur of OA_65.jpg',0.681,0.122,0.474,25.2,0.939,10,101,0.7,1.13,0.107,0.372,-0.215,0.489,0.127,OA
+'Literal Femur of OA_66.jpg',0.61,0.134,0.564,34.7,0.933,11.8,139,0.806,1.3,0.116,0.393,-0.277,0.584,0.177,OA
+'Literal Femur of OA_67.jpg',0.294,0.235,0.658,29.8,0.883,10.9,120,1.31,2.13,0.192,0.545,-0.306,0.732,0.359,OA
+'Literal Femur of OA_68.jpg',0.753,0.0912,0.472,25.4,0.954,10.1,102,0.551,0.887,0.084,0.305,-0.226,0.449,0.128,OA
+'Literal Femur of OA_7.jpg',0.88,0.0447,0.424,35.4,0.978,11.9,142,0.278,0.446,0.0491,0.182,-0.208,0.314,0.0971,OA
+'Literal Femur of OA_8.jpg',0.818,0.0742,0.358,36.4,0.963,12.1,146,0.407,0.661,0.0712,0.264,-0.15,0.319,0.109,OA
+'Literal Femur of OA_9.jpg',0.132,0.36,0.837,26.2,0.826,10.1,105,2.02,3.3,0.288,0.67,-0.41,0.904,0.213,OA

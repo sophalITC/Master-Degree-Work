@@ -1,0 +1,131 @@
+File,Mean1,Variance2,Skewness3,Kurtosis4,Energy5,Entropy6,class
+Medial Femur of G1_1.jpg,5.79E+00,1.41E+00,-5.12E-01,3.11E+00,2.43E-01,1.56E+00,Grade 1
+Medial Femur of G1_10.jpg,5.29E+00,2.44E+00,-3.08E-01,2.13E+00,1.83E-01,1.79E+00,Grade 1
+Medial Femur of G1_11.jpg,6.39E+00,2.37E+00,-9.56E-01,3.14E+00,2.33E-01,1.67E+00,Grade 1
+Medial Femur of G1_12.jpg,5.51E+00,1.43E+00,-4.85E-01,3.33E+00,2.49E-01,1.57E+00,Grade 1
+Medial Femur of G1_13.jpg,4.98E+00,1.09E+00,-1.25E-01,2.94E+00,2.68E-01,1.46E+00,Grade 1
+Medial Femur of G1_14.jpg,5.65E+00,2.11E+00,-4.28E-01,2.49E+00,1.98E-01,1.74E+00,Grade 1
+Medial Femur of G1_15.jpg,5.92E+00,1.85E+00,-9.20E-01,3.44E+00,2.46E-01,1.61E+00,Grade 1
+Medial Femur of G1_16.jpg,6.64E+00,1.83E+00,-1.18E+00,4.13E+00,2.68E-01,1.55E+00,Grade 1
+Medial Femur of G1_17.jpg,5.80E+00,2.60E+00,-3.30E-01,2.16E+00,1.74E-01,1.83E+00,Grade 1
+Medial Femur of G1_18.jpg,6.34E+00,2.33E+00,-1.04E+00,3.38E+00,2.44E-01,1.65E+00,Grade 1
+Medial Femur of G1_2.jpg,5.39E+00,1.34E+00,-3.58E-01,3.13E+00,2.47E-01,1.56E+00,Grade 1
+Medial Femur of G1_3.jpg,5.73E+00,1.64E+00,-3.52E-01,2.91E+00,2.20E-01,1.65E+00,Grade 1
+Medial Femur of G1_4.jpg,5.54E+00,1.83E+00,-3.03E-01,2.50E+00,2.05E-01,1.69E+00,Grade 1
+Medial Femur of G1_5.jpg,5.87E+00,2.34E+00,-7.20E-01,2.61E+00,2.20E-01,1.70E+00,Grade 1
+Medial Femur of G1_6.jpg,6.23E+00,1.75E+00,-7.42E-01,3.17E+00,2.33E-01,1.63E+00,Grade 1
+Medial Femur of G1_7.jpg,5.64E+00,1.63E+00,-4.55E-01,2.94E+00,2.24E-01,1.64E+00,Grade 1
+Medial Femur of G1_8.jpg,5.17E+00,2.21E+00,1.23E-02,2.09E+00,1.83E-01,1.77E+00,Grade 1
+Medial Femur of G1_9.jpg,4.96E+00,1.94E+00,-4.02E-01,2.61E+00,2.08E-01,1.71E+00,Grade 1
+Medial Femur of G2_1.jpg,5.79E+00,1.64E+00,-3.82E-01,2.96E+00,2.26E-01,1.65E+00,Grade 2
+Medial Femur of G2_10.jpg,5.75E+00,1.35E+00,-3.11E-01,2.97E+00,2.43E-01,1.56E+00,Grade 2
+Medial Femur of G2_11.jpg,4.37E+00,1.33E+00,5.40E-01,3.52E+00,2.59E-01,1.53E+00,Grade 2
+Medial Femur of G2_12.jpg,5.38E+00,1.27E+00,-1.18E-01,3.14E+00,2.55E-01,1.53E+00,Grade 2
+Medial Femur of G2_13.jpg,5.48E+00,1.99E+00,-5.26E-01,3.00E+00,2.09E-01,1.73E+00,Grade 2
+Medial Femur of G2_14.jpg,5.69E+00,1.49E+00,-3.08E-01,2.90E+00,2.32E-01,1.61E+00,Grade 2
+Medial Femur of G2_15.jpg,4.91E+00,1.40E+00,-1.95E-01,2.92E+00,2.40E-01,1.58E+00,Grade 2
+Medial Femur of G2_16.jpg,5.91E+00,2.06E+00,-4.05E-01,2.55E+00,1.96E-01,1.74E+00,Grade 2
+Medial Femur of G2_17.jpg,5.24E+00,2.16E+00,-3.40E-01,2.44E+00,1.91E-01,1.77E+00,Grade 2
+Medial Femur of G2_18.jpg,5.62E+00,1.59E+00,-3.88E-01,2.91E+00,2.24E-01,1.63E+00,Grade 2
+Medial Femur of G2_19.jpg,5.28E+00,1.81E+00,-3.51E-01,2.99E+00,2.18E-01,1.69E+00,Grade 2
+Medial Femur of G2_2.jpg,5.81E+00,1.20E+00,-2.35E-01,3.05E+00,2.58E-01,1.50E+00,Grade 2
+Medial Femur of G2_20.jpg,4.84E+00,1.48E+00,1.43E-01,3.07E+00,2.35E-01,1.61E+00,Grade 2
+Medial Femur of G2_21.jpg,5.55E+00,1.96E+00,-6.08E-01,2.88E+00,2.15E-01,1.70E+00,Grade 2
+Medial Femur of G2_3.jpg,5.03E+00,2.12E+00,-1.29E-01,2.43E+00,1.88E-01,1.78E+00,Grade 2
+Medial Femur of G2_4.jpg,5.10E+00,1.20E+00,9.05E-02,3.06E+00,2.64E-01,1.51E+00,Grade 2
+Medial Femur of G2_5.jpg,5.09E+00,1.29E+00,-1.65E-01,3.24E+00,2.54E-01,1.54E+00,Grade 2
+Medial Femur of G2_6.jpg,5.66E+00,2.09E+00,-3.54E-01,2.47E+00,1.94E-01,1.75E+00,Grade 2
+Medial Femur of G2_7.jpg,5.46E+00,1.55E+00,-1.17E-01,2.85E+00,2.24E-01,1.64E+00,Grade 2
+Medial Femur of G2_8.jpg,5.40E+00,1.99E+00,-4.32E-01,2.66E+00,2.01E-01,1.73E+00,Grade 2
+Medial Femur of G2_9.jpg,5.17E+00,1.35E+00,-2.37E-01,3.09E+00,2.46E-01,1.56E+00,Grade 2
+Medial Femur of G3_1.jpg,5.44E+00,1.30E+00,-5.93E-01,3.60E+00,2.69E-01,1.52E+00,Grade 3
+Medial Femur of G3_10.jpg,5.67E+00,1.23E+00,-2.49E-01,2.85E+00,2.52E-01,1.51E+00,Grade 3
+Medial Femur of G3_11.jpg,4.27E+00,1.49E+00,5.47E-02,2.72E+00,2.28E-01,1.61E+00,Grade 3
+Medial Femur of G3_12.jpg,5.62E+00,1.88E+00,-6.21E-01,3.00E+00,2.22E-01,1.68E+00,Grade 3
+Medial Femur of G3_13.jpg,4.86E+00,1.15E+00,-1.76E-01,3.29E+00,2.75E-01,1.48E+00,Grade 3
+Medial Femur of G3_14.jpg,4.81E+00,1.66E+00,1.98E-01,2.71E+00,2.15E-01,1.66E+00,Grade 3
+Medial Femur of G3_15.jpg,4.95E+00,1.55E+00,-6.95E-02,2.97E+00,2.28E-01,1.64E+00,Grade 3
+Medial Femur of G3_16.jpg,4.93E+00,1.67E+00,1.09E-01,2.71E+00,2.15E-01,1.67E+00,Grade 3
+Medial Femur of G3_17.jpg,5.33E+00,1.37E+00,-2.45E-01,3.05E+00,2.43E-01,1.57E+00,Grade 3
+Medial Femur of G3_18.jpg,5.99E+00,1.68E+00,-6.77E-01,3.64E+00,2.29E-01,1.63E+00,Grade 3
+Medial Femur of G3_19.jpg,4.53E+00,1.63E+00,-1.34E-02,2.77E+00,2.21E-01,1.65E+00,Grade 3
+Medial Femur of G3_2.jpg,5.40E+00,1.32E+00,-4.41E-01,3.35E+00,2.54E-01,1.54E+00,Grade 3
+Medial Femur of G3_20.jpg,4.84E+00,1.32E+00,2.90E-03,3.00E+00,2.45E-01,1.56E+00,Grade 3
+Medial Femur of G3_21.jpg,4.97E+00,1.32E+00,1.11E-01,3.07E+00,2.48E-01,1.56E+00,Grade 3
+Medial Femur of G3_22.jpg,5.68E+00,1.43E+00,-3.62E-01,3.09E+00,2.38E-01,1.58E+00,Grade 3
+Medial Femur of G3_23.jpg,4.73E+00,8.46E-01,3.46E-02,2.71E+00,3.00E-01,1.33E+00,Grade 3
+Medial Femur of G3_24.jpg,4.80E+00,1.37E+00,9.65E-02,2.90E+00,2.39E-01,1.58E+00,Grade 3
+Medial Femur of G3_25.jpg,4.89E+00,1.48E+00,3.07E-02,2.88E+00,2.30E-01,1.62E+00,Grade 3
+Medial Femur of G3_26.jpg,5.02E+00,1.26E+00,1.03E-01,3.22E+00,2.56E-01,1.53E+00,Grade 3
+Medial Femur of G3_27.jpg,5.27E+00,1.56E+00,-1.53E-01,2.73E+00,2.24E-01,1.63E+00,Grade 3
+Medial Femur of G3_28.jpg,5.44E+00,1.37E+00,-4.60E-01,3.59E+00,2.58E-01,1.55E+00,Grade 3
+Medial Femur of G3_29.jpg,5.44E+00,2.11E+00,-4.05E-01,2.55E+00,1.94E-01,1.75E+00,Grade 3
+Medial Femur of G3_3.jpg,4.91E+00,1.56E+00,1.72E-01,2.86E+00,2.25E-01,1.64E+00,Grade 3
+Medial Femur of G3_30.jpg,5.69E+00,1.80E+00,-2.75E-01,2.65E+00,2.07E-01,1.70E+00,Grade 3
+Medial Femur of G3_31.jpg,5.48E+00,1.96E+00,-5.54E-01,2.75E+00,2.14E-01,1.70E+00,Grade 3
+Medial Femur of G3_32.jpg,5.75E+00,1.17E+00,-4.40E-01,3.41E+00,2.67E-01,1.48E+00,Grade 3
+Medial Femur of G3_33.jpg,6.05E+00,2.25E+00,-6.32E-01,2.79E+00,2.00E-01,1.75E+00,Grade 3
+Medial Femur of G3_34.jpg,5.54E+00,9.91E-01,-4.14E-01,2.80E+00,2.87E-01,1.39E+00,Grade 3
+Medial Femur of G3_35.jpg,5.61E+00,1.68E+00,-2.26E-01,2.63E+00,2.13E-01,1.66E+00,Grade 3
+Medial Femur of G3_36.jpg,6.08E+00,1.23E+00,-1.03E+00,5.32E+00,3.02E-01,1.43E+00,Grade 3
+Medial Femur of G3_37.jpg,5.53E+00,1.30E+00,-4.66E-01,3.46E+00,2.56E-01,1.53E+00,Grade 3
+Medial Femur of G3_38.jpg,5.46E+00,1.43E+00,-6.39E-02,3.24E+00,2.47E-01,1.59E+00,Grade 3
+Medial Femur of G3_39.jpg,4.31E+00,1.00E+00,-1.93E-02,3.01E+00,2.84E-01,NaN,Grade 3
+Medial Femur of G3_4.jpg,5.68E+00,1.79E+00,-2.42E-01,2.52E+00,2.07E-01,1.69E+00,Grade 3
+Medial Femur of G3_40.jpg,4.81E+00,1.58E+00,5.07E-02,2.83E+00,2.23E-01,1.65E+00,Grade 3
+Medial Femur of G3_41.jpg,5.23E+00,1.43E+00,-8.43E-02,2.79E+00,2.33E-01,1.60E+00,Grade 3
+Medial Femur of G3_42.jpg,6.15E+00,1.68E+00,-7.42E-01,3.60E+00,2.36E-01,1.63E+00,Grade 3
+Medial Femur of G3_43.jpg,4.89E+00,1.67E+00,-2.32E-01,2.60E+00,2.15E-01,1.66E+00,Grade 3
+Medial Femur of G3_44.jpg,4.32E+00,1.52E+00,-2.22E-01,2.11E+00,2.29E-01,NaN,Grade 3
+Medial Femur of G3_5.jpg,4.85E+00,1.52E+00,-3.60E-02,2.86E+00,2.28E-01,1.63E+00,Grade 3
+Medial Femur of G3_6.jpg,5.86E+00,1.62E+00,-6.09E-01,3.46E+00,2.34E-01,1.63E+00,Grade 3
+Medial Femur of G3_7.jpg,6.01E+00,9.78E-01,-4.11E-01,3.33E+00,2.92E-01,1.39E+00,Grade 3
+Medial Femur of G3_8.jpg,4.88E+00,1.92E+00,-1.31E-01,2.51E+00,2.00E-01,1.73E+00,Grade 3
+Medial Femur of G3_9.jpg,4.68E+00,1.96E+00,-8.49E-02,2.26E+00,1.96E-01,1.72E+00,Grade 3
+Medial Femur of G4_1.jpg,4.82E+00,1.29E+00,1.91E-01,3.25E+00,2.53E-01,1.54E+00,Grade 4
+Medial Femur of G4_2.jpg,5.44E+00,1.61E+00,-1.63E-01,2.63E+00,2.17E-01,1.65E+00,Grade 4
+Medial Femur of G4_3.jpg,4.43E+00,1.60E+00,2.97E-01,2.84E+00,2.26E-01,1.64E+00,Grade 4
+Medial Femur of G4_4.jpg,5.36E+00,1.03E+00,-1.21E-01,3.17E+00,2.82E-01,1.43E+00,Grade 4
+Medial Femur of G4_5.jpg,5.30E+00,1.60E+00,-2.97E-01,2.75E+00,2.22E-01,1.64E+00,Grade 4
+Medial Femur of G4_6.jpg,4.90E+00,2.27E+00,1.29E-01,2.51E+00,1.82E-01,1.82E+00,Grade 4
+Medial Femur of G4_7.jpg,5.23E+00,2.46E+00,-2.58E-01,2.28E+00,1.77E-01,1.83E+00,Grade 4
+Medial Femur of G4_8.jpg,5.07E+00,1.48E+00,-4.60E-01,2.70E+00,2.37E-01,1.58E+00,Grade 4
+Medial Femur of Nor_1.jpg,5.58E+00,2.22E+00,-3.28E-01,2.60E+00,1.88E-01,1.79E+00,Normal
+Medial Femur of Nor_10.jpg,6.47E+00,1.11E+00,-1.03E+00,5.10E+00,3.08E-01,1.40E+00,Normal
+Medial Femur of Nor_11.jpg,5.77E+00,2.34E+00,-5.41E-01,2.46E+00,2.00E-01,1.75E+00,Normal
+Medial Femur of Nor_12.jpg,4.82E+00,1.08E+00,4.53E-02,3.07E+00,2.75E-01,1.46E+00,Normal
+Medial Femur of Nor_13.jpg,5.62E+00,2.27E+00,-4.95E-01,2.69E+00,1.92E-01,1.78E+00,Normal
+Medial Femur of Nor_14.jpg,6.17E+00,1.05E+00,-3.55E-01,3.46E+00,2.80E-01,1.43E+00,Normal
+Medial Femur of Nor_15.jpg,5.79E+00,2.01E+00,-4.99E-01,2.58E+00,2.06E-01,1.71E+00,Normal
+Medial Femur of Nor_16.jpg,5.95E+00,2.12E+00,-8.21E-01,2.98E+00,2.33E-01,1.67E+00,Normal
+Medial Femur of Nor_17.jpg,6.74E+00,1.04E+00,-9.73E-01,4.01E+00,3.22E-01,1.34E+00,Normal
+Medial Femur of Nor_18.jpg,6.13E+00,1.38E+00,-6.68E-01,3.46E+00,2.55E-01,1.54E+00,Normal
+Medial Femur of Nor_19.jpg,5.71E+00,2.04E+00,-4.75E-01,2.88E+00,2.02E-01,1.74E+00,Normal
+Medial Femur of Nor_2.jpg,5.70E+00,1.56E+00,-5.46E-01,3.29E+00,2.36E-01,1.61E+00,Normal
+Medial Femur of Nor_20.jpg,5.42E+00,1.18E+00,-1.42E-01,3.13E+00,2.61E-01,1.50E+00,Normal
+Medial Femur of Nor_21.jpg,5.46E+00,1.11E+00,-3.67E-01,3.30E+00,2.76E-01,1.46E+00,Normal
+Medial Femur of Nor_22.jpg,5.39E+00,1.80E+00,-4.60E-01,2.58E+00,2.19E-01,1.66E+00,Normal
+Medial Femur of Nor_23.jpg,5.37E+00,1.92E+00,-9.08E-02,2.76E+00,2.02E-01,1.74E+00,Normal
+Medial Femur of Nor_24.jpg,5.67E+00,1.64E+00,-3.42E-01,2.85E+00,2.20E-01,1.65E+00,Normal
+Medial Femur of Nor_25.jpg,5.90E+00,1.50E+00,-4.91E-01,3.20E+00,2.36E-01,1.60E+00,Normal
+Medial Femur of Nor_26.jpg,5.50E+00,2.70E+00,-2.72E-01,2.02E+00,1.77E-01,1.82E+00,Normal
+Medial Femur of Nor_27.jpg,5.36E+00,9.82E-01,-9.27E-02,3.03E+00,2.85E-01,1.41E+00,Normal
+Medial Femur of Nor_28.jpg,5.75E+00,1.57E+00,-6.02E-01,3.16E+00,2.35E-01,1.60E+00,Normal
+Medial Femur of Nor_29.jpg,4.76E+00,1.57E+00,7.83E-03,2.60E+00,2.19E-01,1.64E+00,Normal
+Medial Femur of Nor_3.jpg,5.63E+00,1.44E+00,-2.28E-01,2.96E+00,2.36E-01,1.59E+00,Normal
+Medial Femur of Nor_30.jpg,4.76E+00,1.54E+00,2.42E-01,2.90E+00,2.27E-01,1.63E+00,Normal
+Medial Femur of Nor_31.jpg,5.31E+00,1.06E+00,-1.12E-01,3.18E+00,2.79E-01,1.45E+00,Normal
+Medial Femur of Nor_32.jpg,5.93E+00,1.13E+00,-4.15E-01,3.54E+00,2.80E-01,1.46E+00,Normal
+Medial Femur of Nor_33.jpg,5.60E+00,1.54E+00,-3.97E-01,3.09E+00,2.30E-01,1.62E+00,Normal
+Medial Femur of Nor_34.jpg,4.78E+00,1.30E+00,-2.42E-01,2.91E+00,2.50E-01,1.54E+00,Normal
+Medial Femur of Nor_35.jpg,5.66E+00,1.57E+00,-1.31E-02,2.70E+00,2.21E-01,1.64E+00,Normal
+Medial Femur of Nor_36.jpg,5.52E+00,1.25E+00,-1.71E-01,3.23E+00,2.59E-01,1.53E+00,Normal
+Medial Femur of Nor_37.jpg,5.30E+00,1.48E+00,-6.85E-02,2.88E+00,2.31E-01,1.61E+00,Normal
+Medial Femur of Nor_38.jpg,6.15E+00,2.63E+00,-6.91E-01,2.62E+00,1.94E-01,1.78E+00,Normal
+Medial Femur of Nor_39.jpg,6.01E+00,2.56E+00,-6.07E-01,2.53E+00,1.89E-01,1.79E+00,Normal
+Medial Femur of Nor_4.jpg,5.49E+00,9.61E-01,-4.54E-01,3.66E+00,3.00E-01,1.38E+00,Normal
+Medial Femur of Nor_5.jpg,4.86E+00,1.05E+00,-2.45E-01,3.03E+00,2.78E-01,1.44E+00,Normal
+Medial Femur of Nor_6.jpg,5.57E+00,2.11E+00,-4.56E-01,2.56E+00,1.99E-01,1.74E+00,Normal
+Medial Femur of Nor_7.jpg,5.64E+00,1.17E+00,-6.52E-01,3.77E+00,2.77E-01,1.46E+00,Normal
+Medial Femur of Nor_8.jpg,6.11E+00,9.10E-01,-3.36E-01,3.53E+00,3.10E-01,1.36E+00,Normal
+Medial Femur of Nor_9.jpg,5.37E+00,2.06E+00,-2.82E-01,2.53E+00,1.94E-01,1.76E+00,Normal

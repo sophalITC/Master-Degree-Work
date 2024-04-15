@@ -1,0 +1,10 @@
+I=imread('cEDIT01.jpg');
+I2=imrotate(I,90);
+mapping=getmaplbphf(8);
+h=lbp(I,1,8,mapping,'h');
+h=h/sum(h);
+histograms(1,:)=h;
+h=lbp(I2,1,8,mapping,'h');
+h=h/sum(h);
+histograms(2,:)=h;
+lbp_hf_features=constructhf(histograms,mapping);

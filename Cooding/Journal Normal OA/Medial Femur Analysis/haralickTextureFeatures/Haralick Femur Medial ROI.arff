@@ -1,0 +1,151 @@
+@relation 'Haralick Femur Medial ROI '
+
+@attribute File {'Medial Femur of Normal_1.jpg','Medial Femur of Normal_10.jpg','Medial Femur of Normal_11.jpg','Medial Femur of Normal_12.jpg','Medial Femur of Normal_13.jpg','Medial Femur of Normal_14.jpg','Medial Femur of Normal_15.jpg','Medial Femur of Normal_16.jpg','Medial Femur of Normal_17.jpg','Medial Femur of Normal_18.jpg','Medial Femur of Normal_19.jpg','Medial Femur of Normal_2.jpg','Medial Femur of Normal_20.jpg','Medial Femur of Normal_21.jpg','Medial Femur of Normal_22.jpg','Medial Femur of Normal_23.jpg','Medial Femur of Normal_24.jpg','Medial Femur of Normal_25.jpg','Medial Femur of Normal_26.jpg','Medial Femur of Normal_27.jpg','Medial Femur of Normal_28.jpg','Medial Femur of Normal_29.jpg','Medial Femur of Normal_3.jpg','Medial Femur of Normal_30.jpg','Medial Femur of Normal_31.jpg','Medial Femur of Normal_32.jpg','Medial Femur of Normal_33.jpg','Medial Femur of Normal_34.jpg','Medial Femur of Normal_35.jpg','Medial Femur of Normal_36.jpg','Medial Femur of Normal_37.jpg','Medial Femur of Normal_38.jpg','Medial Femur of Normal_39.jpg','Medial Femur of Normal_4.jpg','Medial Femur of Normal_40.jpg','Medial Femur of Normal_41.jpg','Medial Femur of Normal_42.jpg','Medial Femur of Normal_43.jpg','Medial Femur of Normal_44.jpg','Medial Femur of Normal_45.jpg','Medial Femur of Normal_46.jpg','Medial Femur of Normal_47.jpg','Medial Femur of Normal_48.jpg','Medial Femur of Normal_49.jpg','Medial Femur of Normal_5.jpg','Medial Femur of Normal_50.jpg','Medial Femur of Normal_51.jpg','Medial Femur of Normal_52.jpg','Medial Femur of Normal_53.jpg','Medial Femur of Normal_54.jpg','Medial Femur of Normal_55.jpg','Medial Femur of Normal_56.jpg','Medial Femur of Normal_57.jpg','Medial Femur of Normal_58.jpg','Medial Femur of Normal_59.jpg','Medial Femur of Normal_6.jpg','Medial Femur of Normal_60.jpg','Medial Femur of Normal_61.jpg','Medial Femur of Normal_62.jpg','Medial Femur of Normal_63.jpg','Medial Femur of Normal_7.jpg','Medial Femur of Normal_8.jpg','Medial Femur of Normal_9.jpg','Medial Femur of OA_1.jpg','Medial Femur of OA_10.jpg','Medial Femur of OA_11.jpg','Medial Femur of OA_12.jpg','Medial Femur of OA_13.jpg','Medial Femur of OA_14.jpg','Medial Femur of OA_15.jpg','Medial Femur of OA_16.jpg','Medial Femur of OA_17.jpg','Medial Femur of OA_18.jpg','Medial Femur of OA_19.jpg','Medial Femur of OA_2.jpg','Medial Femur of OA_20.jpg','Medial Femur of OA_21.jpg','Medial Femur of OA_22.jpg','Medial Femur of OA_23.jpg','Medial Femur of OA_24.jpg','Medial Femur of OA_25.jpg','Medial Femur of OA_26.jpg','Medial Femur of OA_27.jpg','Medial Femur of OA_28.jpg','Medial Femur of OA_29.jpg','Medial Femur of OA_3.jpg','Medial Femur of OA_30.jpg','Medial Femur of OA_31.jpg','Medial Femur of OA_32.jpg','Medial Femur of OA_33.jpg','Medial Femur of OA_34.jpg','Medial Femur of OA_35.jpg','Medial Femur of OA_36.jpg','Medial Femur of OA_37.jpg','Medial Femur of OA_38.jpg','Medial Femur of OA_39.jpg','Medial Femur of OA_4.jpg','Medial Femur of OA_40.jpg','Medial Femur of OA_41.jpg','Medial Femur of OA_42.jpg','Medial Femur of OA_43.jpg','Medial Femur of OA_44.jpg','Medial Femur of OA_45.jpg','Medial Femur of OA_46.jpg','Medial Femur of OA_47.jpg','Medial Femur of OA_48.jpg','Medial Femur of OA_49.jpg','Medial Femur of OA_5.jpg','Medial Femur of OA_50.jpg','Medial Femur of OA_51.jpg','Medial Femur of OA_52.jpg','Medial Femur of OA_53.jpg','Medial Femur of OA_54.jpg','Medial Femur of OA_55.jpg','Medial Femur of OA_56.jpg','Medial Femur of OA_57.jpg','Medial Femur of OA_58.jpg','Medial Femur of OA_59.jpg','Medial Femur of OA_6.jpg','Medial Femur of OA_60.jpg','Medial Femur of OA_61.jpg','Medial Femur of OA_62.jpg','Medial Femur of OA_63.jpg','Medial Femur of OA_64.jpg','Medial Femur of OA_65.jpg','Medial Femur of OA_66.jpg','Medial Femur of OA_67.jpg','Medial Femur of OA_68.jpg','Medial Femur of OA_7.jpg','Medial Femur of OA_8.jpg','Medial Femur of OA_9.jpg'}
+@attribute Feature_1 numeric
+@attribute Feature_2 numeric
+@attribute Feature_3 numeric
+@attribute Feature_4 numeric
+@attribute Feature_5 numeric
+@attribute Feature_6 numeric
+@attribute Feature_7 numeric
+@attribute Feature_8 numeric
+@attribute Feature_9 numeric
+@attribute Feature_10 numeric
+@attribute Feature_11 numeric
+@attribute Feature_12 numeric
+@attribute Feature_13 numeric
+@attribute Feature_14 numeric
+@attribute class {Nor,OA}
+
+@data
+'Medial Femur of Normal_1.jpg',0.527,0.0981,0.747,39.1,0.951,12.5,157,0.824,1.29,0.0892,0.321,-0.466,0.736,0.268,Nor
+'Medial Femur of Normal_10.jpg',0.33,0.164,0.805,20.4,0.918,8.97,81.9,1.3,2.03,0.139,0.446,-0.473,0.846,0.321,Nor
+'Medial Femur of Normal_11.jpg',0.712,0.0841,0.62,25.8,0.958,10.2,104,0.614,0.97,0.0787,0.289,-0.354,0.584,0.157,Nor
+'Medial Femur of Normal_12.jpg',0.564,0.133,0.651,24.8,0.934,9.95,99.5,0.925,1.47,0.115,0.392,-0.357,0.686,0.154,Nor
+'Medial Femur of Normal_13.jpg',0.332,0.224,0.626,28.1,0.888,10.6,113,1.23,1.99,0.184,0.532,-0.295,0.706,0.299,Nor
+'Medial Femur of Normal_14.jpg',0.479,0.187,0.579,25.9,0.906,10.2,104,1.05,1.71,0.156,0.482,-0.265,0.638,0.19,Nor
+'Medial Femur of Normal_15.jpg',0.398,0.204,0.619,17.7,0.898,8.37,71,1.16,1.88,0.168,0.505,-0.292,0.688,0.245,Nor
+'Medial Femur of Normal_16.jpg',0.295,0.241,0.694,22.6,0.881,9.45,90.6,1.41,2.28,0.196,0.554,-0.335,0.775,0.291,Nor
+'Medial Femur of Normal_17.jpg',0.398,0.156,0.753,23.2,0.922,9.59,93.1,1.21,1.9,0.133,0.433,-0.436,0.808,0.259,Nor
+'Medial Femur of Normal_18.jpg',0.285,0.225,0.714,39.6,0.888,12.5,159,1.37,2.21,0.184,0.534,-0.363,0.79,0.318,Nor
+'Medial Femur of Normal_19.jpg',0.266,0.234,0.731,26.2,0.883,10.2,105,1.45,2.32,0.191,0.545,-0.373,0.809,0.246,Nor
+'Medial Femur of Normal_2.jpg',0.359,0.162,0.7,30.3,0.919,11,122,1.1,1.75,0.137,0.443,-0.38,0.748,0.41,Nor
+'Medial Femur of Normal_20.jpg',0.469,0.16,0.708,33.2,0.92,11.5,133,1.07,1.71,0.136,0.44,-0.37,0.735,0.231,Nor
+'Medial Femur of Normal_21.jpg',0.445,0.137,0.763,32.6,0.932,11.4,131,1.09,1.72,0.118,0.399,-0.451,0.795,0.27,Nor
+'Medial Femur of Normal_22.jpg',0.277,0.203,0.821,33.2,0.899,11.5,133,1.56,2.45,0.168,0.505,-0.473,0.884,0.242,Nor
+'Medial Femur of Normal_23.jpg',0.382,0.191,0.699,25.5,0.904,10.1,102,1.25,1.99,0.159,0.488,-0.369,0.771,0.193,Nor
+'Medial Femur of Normal_24.jpg',0.252,0.32,0.65,41.6,0.847,12.9,167,1.46,2.45,0.258,0.64,-0.257,0.717,0.301,Nor
+'Medial Femur of Normal_25.jpg',0.328,0.156,0.8,29.2,0.922,10.8,117,1.29,2.02,0.132,0.433,-0.488,0.853,0.399,Nor
+'Medial Femur of Normal_26.jpg',0.458,0.167,0.701,25.5,0.916,10.1,103,1.14,1.81,0.141,0.451,-0.382,0.758,0.184,Nor
+'Medial Femur of Normal_27.jpg',0.547,0.114,0.717,33.5,0.943,11.6,135,0.883,1.39,0.101,0.355,-0.417,0.72,0.228,Nor
+'Medial Femur of Normal_28.jpg',0.299,0.236,0.695,26.2,0.882,10.2,105,1.4,2.26,0.193,0.546,-0.337,0.775,0.238,Nor
+'Medial Femur of Normal_29.jpg',0.321,0.256,0.704,25.2,0.873,9.99,101,1.42,2.32,0.208,0.572,-0.334,0.778,0.19,Nor
+'Medial Femur of Normal_3.jpg',0.339,0.237,0.511,19.5,0.882,8.8,78.3,1.06,1.76,0.193,0.547,-0.198,0.567,0.328,Nor
+'Medial Femur of Normal_30.jpg',0.462,0.143,0.811,33.8,0.929,11.6,136,1.19,1.86,0.123,0.411,-0.491,0.837,0.18,Nor
+'Medial Femur of Normal_31.jpg',0.482,0.117,0.774,23.1,0.941,9.6,93,1.04,1.62,0.104,0.361,-0.49,0.806,0.241,Nor
+'Medial Femur of Normal_32.jpg',0.267,0.177,0.819,27.2,0.912,10.4,109,1.42,2.23,0.148,0.467,-0.487,0.873,0.32,Nor
+'Medial Femur of Normal_33.jpg',0.428,0.19,0.564,22.3,0.905,9.44,89.7,0.998,1.63,0.158,0.487,-0.253,0.613,0.273,Nor
+'Medial Femur of Normal_34.jpg',0.297,0.19,0.805,29.5,0.905,10.8,118,1.4,2.22,0.159,0.488,-0.456,0.854,0.318,Nor
+'Medial Femur of Normal_35.jpg',0.287,0.256,0.686,22.1,0.873,9.34,88.7,1.44,2.34,0.208,0.571,-0.317,0.765,0.284,Nor
+'Medial Femur of Normal_36.jpg',0.223,0.262,0.78,29.1,0.87,10.7,117,1.62,2.61,0.212,0.577,-0.393,0.849,0.296,Nor
+'Medial Femur of Normal_37.jpg',0.279,0.218,0.736,28.5,0.891,10.6,114,1.39,2.22,0.179,0.525,-0.379,0.804,0.351,Nor
+'Medial Femur of Normal_38.jpg',0.23,0.283,0.735,23.5,0.86,9.61,94.2,1.61,2.62,0.228,0.6,-0.348,0.817,0.243,Nor
+'Medial Femur of Normal_39.jpg',0.486,0.128,0.705,27.5,0.936,10.5,110,0.95,1.5,0.111,0.382,-0.406,0.731,0.264,Nor
+'Medial Femur of Normal_4.jpg',0.512,0.115,0.703,39.2,0.943,12.5,157,0.837,1.32,0.102,0.357,-0.409,0.703,0.27,Nor
+'Medial Femur of Normal_40.jpg',0.251,0.213,0.794,24,0.894,9.72,96.3,1.52,2.41,0.175,0.517,-0.447,0.866,0.281,Nor
+'Medial Femur of Normal_41.jpg',0.4,0.174,0.732,23.1,0.913,9.58,92.8,1.23,1.95,0.146,0.462,-0.406,0.793,0.245,Nor
+'Medial Femur of Normal_42.jpg',0.384,0.198,0.635,22,0.901,9.36,88.4,1.15,1.85,0.164,0.498,-0.3,0.693,0.291,Nor
+'Medial Femur of Normal_43.jpg',0.264,0.247,0.791,32.2,0.877,11.3,129,1.6,2.56,0.201,0.56,-0.407,0.854,0.234,Nor
+'Medial Femur of Normal_44.jpg',0.278,0.231,0.711,28.9,0.884,10.7,116,1.39,2.25,0.189,0.542,-0.35,0.784,0.347,Nor
+'Medial Femur of Normal_45.jpg',0.328,0.17,0.782,24.5,0.915,9.84,98.3,1.33,2.09,0.143,0.457,-0.458,0.844,0.239,Nor
+'Medial Femur of Normal_46.jpg',0.248,0.271,0.695,26.4,0.865,10.2,106,1.49,2.42,0.219,0.586,-0.321,0.778,0.25,Nor
+'Medial Femur of Normal_47.jpg',0.272,0.223,0.751,25.1,0.889,9.96,101,1.47,2.34,0.183,0.531,-0.392,0.825,0.219,Nor
+'Medial Femur of Normal_48.jpg',0.23,0.26,0.739,26.7,0.87,10.3,107,1.55,2.49,0.211,0.574,-0.361,0.816,0.269,Nor
+'Medial Femur of Normal_49.jpg',0.262,0.246,0.753,22.3,0.878,9.37,89.6,1.55,2.48,0.2,0.56,-0.382,0.831,0.281,Nor
+'Medial Femur of Normal_5.jpg',0.347,0.212,0.689,25,0.894,9.97,101,1.3,2.09,0.174,0.517,-0.348,0.765,0.197,Nor
+'Medial Femur of Normal_50.jpg',0.379,0.126,0.875,30.9,0.937,11.1,124,1.29,1.99,0.11,0.378,-0.574,0.894,0.257,Nor
+'Medial Femur of Normal_51.jpg',0.405,0.181,0.596,32.1,0.91,11.3,129,0.974,1.59,0.151,0.472,-0.281,0.636,0.311,Nor
+'Medial Femur of Normal_52.jpg',0.324,0.154,0.798,29.4,0.923,10.8,118,1.27,1.98,0.131,0.429,-0.482,0.846,0.391,Nor
+'Medial Femur of Normal_53.jpg',0.7,0.139,0.272,24.5,0.931,9.9,98.3,0.623,1.04,0.12,0.403,-0.082,0.291,0.115,Nor
+'Medial Femur of Normal_54.jpg',0.348,0.161,0.818,33.4,0.919,11.5,134,1.38,2.15,0.137,0.442,-0.5,0.873,0.251,Nor
+'Medial Femur of Normal_55.jpg',0.356,0.175,0.658,20.1,0.912,8.94,80.7,1.06,1.71,0.147,0.464,-0.339,0.708,0.394,Nor
+'Medial Femur of Normal_56.jpg',0.81,0.0737,0.412,25.3,0.963,10.1,102,0.436,0.703,0.0709,0.263,-0.191,0.371,0.11,Nor
+'Medial Femur of Normal_57.jpg',0.298,0.319,0.344,43.4,0.841,13.2,174,1.08,1.88,0.255,0.627,-0.0878,0.398,0.28,Nor
+'Medial Femur of Normal_58.jpg',0.226,0.301,0.767,21.4,0.854,9.13,85.7,1.68,2.74,0.243,0.621,-0.359,0.836,0.229,Nor
+'Medial Femur of Normal_59.jpg',0.881,0.0504,0.292,49.3,0.975,14.1,198,0.263,0.43,0.0534,0.2,-0.116,0.227,0.0861,Nor
+'Medial Femur of Normal_6.jpg',0.821,0.0569,0.567,35.3,0.972,11.9,142,0.422,0.666,0.0583,0.218,-0.319,0.473,0.116,Nor
+'Medial Femur of Normal_60.jpg',0.368,0.172,0.662,43.2,0.914,13.1,174,1.05,1.69,0.145,0.459,-0.342,0.709,0.369,Nor
+'Medial Femur of Normal_61.jpg',0.388,0.193,0.58,28.6,0.903,10.7,115,1.01,1.65,0.161,0.491,-0.262,0.627,0.314,Nor
+'Medial Femur of Normal_62.jpg',0.331,0.256,0.5,19.1,0.872,8.71,76.6,1.13,1.89,0.208,0.569,-0.189,0.571,0.302,Nor
+'Medial Femur of Normal_63.jpg',0.37,0.153,0.736,20.7,0.923,9.07,83.3,1.12,1.77,0.131,0.429,-0.419,0.78,0.377,Nor
+'Medial Femur of Normal_7.jpg',0.255,0.242,0.771,24.3,0.879,9.78,97.6,1.56,2.49,0.197,0.554,-0.411,0.851,0.224,Nor
+'Medial Femur of Normal_8.jpg',0.702,0.0975,0.575,35.1,0.951,11.9,141,0.652,1.04,0.0889,0.32,-0.303,0.557,0.148,Nor
+'Medial Femur of Normal_9.jpg',0.879,0.0349,0.617,35.7,0.983,12,143,0.319,0.495,0.0418,0.151,-0.401,0.469,0.0841,Nor
+'Medial Femur of OA_1.jpg',0.342,0.23,0.686,25.6,0.887,10.1,103,1.36,2.19,0.189,0.539,-0.335,0.765,0.203,OA
+'Medial Femur of OA_10.jpg',0.845,0.0616,0.39,24.7,0.969,9.96,99.3,0.379,0.609,0.0618,0.231,-0.185,0.341,0.0907,OA
+'Medial Femur of OA_11.jpg',0.218,0.31,0.708,21.3,0.849,9.14,85.4,1.62,2.67,0.249,0.629,-0.314,0.794,0.307,OA
+'Medial Femur of OA_12.jpg',0.325,0.217,0.665,22.5,0.891,9.44,90.2,1.28,2.06,0.179,0.524,-0.32,0.738,0.309,OA
+'Medial Femur of OA_13.jpg',0.426,0.16,0.724,25.1,0.92,10,101,1.17,1.84,0.135,0.439,-0.41,0.783,0.177,OA
+'Medial Femur of OA_14.jpg',0.172,0.304,0.819,29.4,0.852,10.7,118,1.85,2.99,0.245,0.623,-0.412,0.888,0.247,OA
+'Medial Femur of OA_15.jpg',0.296,0.291,0.562,27.2,0.855,10.4,109,1.33,2.22,0.234,0.607,-0.217,0.646,0.25,OA
+'Medial Femur of OA_16.jpg',0.278,0.247,0.682,41.7,0.877,12.9,168,1.39,2.26,0.201,0.561,-0.317,0.756,0.343,OA
+'Medial Femur of OA_17.jpg',0.373,0.171,0.739,8.36,0.915,5.7,33.6,1.24,1.96,0.144,0.457,-0.417,0.803,0.253,OA
+'Medial Femur of OA_18.jpg',0.303,0.241,0.7,24.6,0.88,9.86,98.6,1.42,2.29,0.197,0.553,-0.35,0.788,0.216,OA
+'Medial Femur of OA_19.jpg',0.266,0.24,0.714,28.1,0.88,10.6,113,1.43,2.31,0.196,0.551,-0.348,0.789,0.322,OA
+'Medial Femur of OA_2.jpg',0.6,0.121,0.644,24.9,0.939,9.97,100,0.859,1.36,0.107,0.37,-0.36,0.671,0.144,OA
+'Medial Femur of OA_20.jpg',0.424,0.158,0.664,28.3,0.921,10.6,114,1.02,1.63,0.134,0.437,-0.348,0.705,0.302,OA
+'Medial Femur of OA_21.jpg',0.213,0.365,0.624,21.5,0.823,9.19,86.1,1.59,2.69,0.291,0.671,-0.234,0.714,0.264,OA
+'Medial Femur of OA_22.jpg',0.456,0.2,0.572,34.8,0.9,11.8,140,1.09,1.77,0.166,0.501,-0.259,0.64,0.195,OA
+'Medial Femur of OA_23.jpg',0.436,0.188,0.607,23.1,0.906,9.59,92.7,1.08,1.74,0.157,0.483,-0.29,0.668,0.242,OA
+'Medial Femur of OA_24.jpg',0.327,0.227,0.648,27.6,0.887,10.5,111,1.28,2.07,0.186,0.535,-0.305,0.725,0.281,OA
+'Medial Femur of OA_25.jpg',0.246,0.211,0.815,24.2,0.895,9.75,97.1,1.6,2.51,0.174,0.515,-0.465,0.884,0.269,OA
+'Medial Femur of OA_26.jpg',0.365,0.229,0.64,8.96,0.886,5.91,36,1.29,2.09,0.187,0.539,-0.295,0.717,0.197,OA
+'Medial Femur of OA_27.jpg',0.457,0.137,0.729,14.7,0.931,7.64,59.2,1.06,1.67,0.118,0.4,-0.428,0.773,0.245,OA
+'Medial Femur of OA_28.jpg',0.542,0.156,0.573,15,0.922,7.73,60.3,0.912,1.47,0.132,0.432,-0.272,0.609,0.201,OA
+'Medial Femur of OA_29.jpg',0.459,0.112,0.785,13.8,0.944,7.38,55.4,1.01,1.58,0.0995,0.35,-0.497,0.805,0.292,OA
+'Medial Femur of OA_3.jpg',0.508,0.136,0.662,27.1,0.932,10.4,109,0.926,1.47,0.118,0.398,-0.358,0.688,0.242,OA
+'Medial Femur of OA_30.jpg',0.389,0.127,0.748,6.39,0.937,4.99,25.8,0.995,1.56,0.111,0.38,-0.453,0.774,0.431,OA
+'Medial Femur of OA_31.jpg',0.361,0.176,0.679,29.1,0.912,10.8,117,1.13,1.81,0.148,0.465,-0.358,0.739,0.353,OA
+'Medial Femur of OA_32.jpg',0.382,0.19,0.708,14,0.905,7.43,56.4,1.24,1.98,0.158,0.487,-0.366,0.767,0.264,OA
+'Medial Femur of OA_33.jpg',0.317,0.204,0.677,29.7,0.898,10.9,119,1.23,1.98,0.169,0.506,-0.338,0.743,0.378,OA
+'Medial Femur of OA_34.jpg',0.795,0.0578,0.635,25.4,0.971,10.1,102,0.483,0.755,0.059,0.221,-0.39,0.553,0.12,OA
+'Medial Femur of OA_35.jpg',0.472,0.163,0.652,14.5,0.918,7.59,58.3,1.04,1.67,0.138,0.445,-0.331,0.696,0.235,OA
+'Medial Femur of OA_36.jpg',0.317,0.202,0.732,11.2,0.899,6.6,44.9,1.36,2.16,0.167,0.503,-0.387,0.804,0.306,OA
+'Medial Femur of OA_37.jpg',0.722,0.102,0.497,25,0.949,10,101,0.63,1.01,0.0923,0.33,-0.243,0.494,0.112,OA
+'Medial Femur of OA_38.jpg',0.226,0.33,0.641,29.2,0.84,10.8,117,1.55,2.59,0.265,0.646,-0.255,0.729,0.296,OA
+'Medial Femur of OA_39.jpg',0.271,0.208,0.819,21.5,0.896,9.17,86.2,1.57,2.47,0.171,0.511,-0.462,0.879,0.271,OA
+'Medial Femur of OA_4.jpg',0.36,0.157,0.722,30.3,0.922,11,122,1.11,1.76,0.133,0.435,-0.404,0.768,0.405,OA
+'Medial Femur of OA_40.jpg',0.681,0.0978,0.6,8.48,0.951,5.81,34.2,0.673,1.07,0.089,0.32,-0.325,0.582,0.163,OA
+'Medial Femur of OA_41.jpg',0.377,0.203,0.61,18.5,0.899,8.57,74.3,1.13,1.83,0.168,0.504,-0.287,0.676,0.291,OA
+'Medial Femur of OA_42.jpg',0.436,0.136,0.721,32.7,0.932,11.4,131,1.03,1.62,0.118,0.398,-0.416,0.757,0.301,OA
+'Medial Femur of OA_43.jpg',0.646,0.0795,0.729,34.2,0.96,11.7,138,0.704,1.09,0.0753,0.278,-0.461,0.694,0.191,OA
+'Medial Femur of OA_44.jpg',0.307,0.226,0.704,36.2,0.888,12,145,1.38,2.22,0.185,0.536,-0.349,0.781,0.205,OA
+'Medial Femur of OA_45.jpg',0.291,0.211,0.743,24.1,0.894,9.77,96.9,1.4,2.24,0.174,0.516,-0.393,0.815,0.257,OA
+'Medial Femur of OA_46.jpg',0.363,0.138,0.817,16.2,0.931,7.99,65.2,1.28,1.98,0.119,0.402,-0.519,0.867,0.201,OA
+'Medial Femur of OA_47.jpg',0.455,0.0756,0.851,13.2,0.962,7.22,53.1,0.928,1.41,0.0724,0.268,-0.612,0.844,0.365,OA
+'Medial Femur of OA_48.jpg',0.248,0.245,0.762,21,0.877,9.09,84.4,1.57,2.51,0.2,0.558,-0.388,0.838,0.311,OA
+'Medial Femur of OA_49.jpg',0.279,0.23,0.721,23.2,0.885,9.57,93.1,1.41,2.27,0.188,0.54,-0.37,0.801,0.305,OA
+'Medial Femur of OA_5.jpg',0.29,0.195,0.84,21.2,0.903,9.1,85.1,1.53,2.4,0.162,0.494,-0.497,0.892,0.242,OA
+'Medial Femur of OA_50.jpg',0.28,0.245,0.716,36.5,0.878,12,147,1.46,2.36,0.199,0.558,-0.35,0.795,0.217,OA
+'Medial Femur of OA_51.jpg',0.369,0.221,0.52,40.4,0.89,12.7,162,1.02,1.69,0.181,0.528,-0.209,0.571,0.309,OA
+'Medial Femur of OA_52.jpg',0.25,0.159,0.882,38.2,0.921,12.3,154,1.54,2.38,0.135,0.438,-0.57,0.922,0.329,OA
+'Medial Femur of OA_53.jpg',0.577,0.167,0.418,34,0.916,11.7,137,0.761,1.26,0.141,0.452,-0.152,0.434,0.193,OA
+'Medial Femur of OA_54.jpg',0.497,0.153,0.65,33.6,0.923,11.6,135,0.988,1.58,0.131,0.428,-0.333,0.684,0.231,OA
+'Medial Femur of OA_55.jpg',0.348,0.218,0.668,26.3,0.891,10.2,106,1.29,2.08,0.179,0.524,-0.324,0.743,0.229,OA
+'Medial Femur of OA_56.jpg',0.484,0.112,0.739,32.6,0.944,11.4,131,0.893,1.4,0.0995,0.35,-0.447,0.744,0.293,OA
+'Medial Femur of OA_57.jpg',0.48,0.17,0.63,23.8,0.915,9.74,95.6,1.05,1.69,0.143,0.457,-0.315,0.684,0.209,OA
+'Medial Femur of OA_58.jpg',0.595,0.172,0.381,17,0.914,8.23,68.2,0.781,1.3,0.145,0.46,-0.131,0.408,0.17,OA
+'Medial Femur of OA_59.jpg',0.37,0.166,0.76,32.4,0.917,11.4,130,1.26,1.98,0.14,0.449,-0.433,0.816,0.295,OA
+'Medial Femur of OA_6.jpg',0.332,0.217,0.566,30,0.892,10.9,121,1.07,1.76,0.178,0.523,-0.245,0.623,0.372,OA
+'Medial Femur of OA_60.jpg',0.488,0.197,0.545,25.2,0.902,10,101,1.04,1.7,0.163,0.496,-0.244,0.613,0.154,OA
+'Medial Femur of OA_61.jpg',0.49,0.161,0.602,23,0.92,9.58,92.4,0.952,1.53,0.136,0.441,-0.293,0.64,0.241,OA
+'Medial Femur of OA_62.jpg',0.344,0.205,0.672,27.6,0.897,10.5,111,1.24,1.99,0.169,0.507,-0.338,0.745,0.286,OA
+'Medial Femur of OA_63.jpg',0.329,0.245,0.641,23.9,0.878,9.74,96,1.34,2.18,0.2,0.558,-0.288,0.721,0.231,OA
+'Medial Femur of OA_64.jpg',0.384,0.19,0.62,21.7,0.905,9.3,87.3,1.08,1.75,0.158,0.487,-0.294,0.673,0.313,OA
+'Medial Femur of OA_65.jpg',0.266,0.227,0.747,11,0.887,6.51,44,1.48,2.36,0.186,0.536,-0.386,0.822,0.306,OA
+'Medial Femur of OA_66.jpg',0.264,0.263,0.723,26.1,0.871,10.1,105,1.51,2.45,0.214,0.581,-0.344,0.8,0.242,OA
+'Medial Femur of OA_67.jpg',0.286,0.261,0.656,18.5,0.87,8.54,74.2,1.41,2.29,0.212,0.577,-0.297,0.742,0.28,OA
+'Medial Femur of OA_68.jpg',0.368,0.127,0.823,20.3,0.937,8.96,81.5,1.19,1.85,0.111,0.38,-0.538,0.862,0.386,OA
+'Medial Femur of OA_7.jpg',0.454,0.177,0.652,25.3,0.911,10,102,1.11,1.77,0.148,0.467,-0.346,0.724,0.172,OA
+'Medial Femur of OA_8.jpg',0.443,0.183,0.599,27.2,0.909,10.4,109,1.04,1.69,0.153,0.476,-0.286,0.656,0.248,OA
+'Medial Femur of OA_9.jpg',0.274,0.249,0.739,26.2,0.877,10.2,105,1.53,2.47,0.203,0.565,-0.368,0.819,0.221,OA

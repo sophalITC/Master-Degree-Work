@@ -1,0 +1,393 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Factors2000}
+I.~R. Factors, \href{http://www.annals.org/content/133/8/635.short}{{NIH
+  Conference Osteoarthritis : New Insights AND I TS}}, Annals of Internal
+  Medicine 133~(8) (2000) 637--639.
+\newblock \href {http://dx.doi.org/10.7326/0003-4819-133-8-200010170-00016}
+  {\path{doi:10.7326/0003-4819-133-8-200010170-00016}}.
+\newline\urlprefix\url{http://www.annals.org/content/133/8/635.short}
+
+\bibitem{BoneandJointInitiativeUSA2014}
+{Bone and Joint Initiative USA}, {The Burden of Musculosketal Diseases in the
+  United States: Prevalence, Societal and Economic Cost}, 2014.
+
+\bibitem{Wolski2010}
+M.~Wolski, P.~Podsiadlo, G.~W. Stachowiak, L.~S. Lohmander, M.~Englund,
+  {Differences in trabecular bone texture between knees with and without
+  radiographic osteoarthritis detected by directional fractal signature
+  method}, Osteoarthritis and Cartilage 18~(5) (2010) 684--690.
+\newblock \href {http://dx.doi.org/10.1016/j.joca.2010.01.002}
+  {\path{doi:10.1016/j.joca.2010.01.002}}.
+
+\bibitem{Jin2013}
+Z.-J. X. K.-M. L. J.~L. Chao~Jin, Yang~Yang,
+  \href{http://jmbe.bme.ncku.edu.tw/index.php/bme/article/view/1962/1005}{Automated
+  analysis method for screening knee osteoarthritis using medical infrared
+  thermography chao}, Journal of Medical and Biological Engineering 33~(5)
+  (2013) 471.
+\newblock \href {http://dx.doi.org/10.5405/jmbe.1054}
+  {\path{doi:10.5405/jmbe.1054}}.
+\newline\urlprefix\url{http://jmbe.bme.ncku.edu.tw/index.php/bme/article/view/1962/1005}
+
+\bibitem{Shamir2009}
+L.~Shamir, S.~M. Ling, W.~Scott, M.~Hochberg, L.~Ferrucci, I.~G. Goldberg,
+  \href{http://dx.doi.org/10.1016/j.joca.2009.04.010}{{Early detection of
+  radiographic knee osteoarthritis using computer-aided analysis}},
+  Osteoarthritis and Cartilage 17~(10) (2009) 1307--1312.
+\newblock \href {http://arxiv.org/abs/NIHMS150003} {\path{arXiv:NIHMS150003}},
+  \href {http://dx.doi.org/10.1016/j.joca.2009.04.010}
+  {\path{doi:10.1016/j.joca.2009.04.010}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.joca.2009.04.010}
+
+\bibitem{S.2016}
+S.~S., P.~U., R.~R.,
+  \href{http://www.ijcaonline.org/archives/volume145/number1/gornale-2016-ijca-910544.pdf}{{Detection
+  of Osteoarthritis using Knee X-Ray Image Analyses: A Machine Vision based
+  Approach}}, International Journal of Computer Applications 145~(1) (2016)
+  20--26.
+\newblock \href {http://dx.doi.org/10.5120/ijca2016910544}
+  {\path{doi:10.5120/ijca2016910544}}.
+\newline\urlprefix\url{http://www.ijcaonline.org/archives/volume145/number1/gornale-2016-ijca-910544.pdf}
+
+\bibitem{Kotti2017}
+M.~Kotti, L.~D. Duffell, A.~A. Faisal, A.~H. McGregor,
+  \href{http://dx.doi.org/10.1016/j.medengphy.2017.02.004}{{Detecting knee
+  osteoarthritis and its discriminating parameters using random forests}},
+  Medical Engineering and Physics 43 (2017) 19--29.
+\newblock \href {http://dx.doi.org/10.1016/j.medengphy.2017.02.004}
+  {\path{doi:10.1016/j.medengphy.2017.02.004}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.medengphy.2017.02.004}
+
+\bibitem{Castellano2004}
+G.~Castellano, L.~Bonilha, L.~M. Li, F.~Cendes, {Texture analysis of medical
+  images}, Clinical Radiology 59~(12) (2004) 1061--1069.
+\newblock \href {http://dx.doi.org/10.1016/j.crad.2004.07.008}
+  {\path{doi:10.1016/j.crad.2004.07.008}}.
+
+\bibitem{Janvier2015}
+T.~Janvier, H.~Toumi, K.~Harrar, E.~Lespessailles, R.~Jennane, {ROI impact on
+  the characterization of knee osteoarthritis using fractal analysis}, 5th
+  International Conference on Image Processing, Theory, Tools and Applications
+  2015, IPTA 2015 (2015) 304--308\href
+  {http://dx.doi.org/10.1109/IPTA.2015.7367152}
+  {\path{doi:10.1109/IPTA.2015.7367152}}.
+
+\bibitem{Chuah2011}
+T.~K. Chuah, C.~L. Poh, K.~Sheah, {Quantitative texture analysis of MRI images
+  for detection of cartilage-related bone marrow edema}, Proceedings of the
+  Annual International Conference of the IEEE Engineering in Medicine and
+  Biology Society, EMBS (2011) 5112--5115\href
+  {http://dx.doi.org/10.1109/IEMBS.2011.6091266}
+  {\path{doi:10.1109/IEMBS.2011.6091266}}.
+
+\bibitem{Dittakan2016}
+K.~Dittakan, F.~Coenen, {Early detection of osteoarthritis using local binary
+  patterns: A study directed at human joint imagery}, Lecture Notes in Computer
+  Science (including subseries Lecture Notes in Artificial Intelligence and
+  Lecture Notes in Bioinformatics) 9810 LNCS (2016) 93--105.
+\newblock \href {http://dx.doi.org/10.1007/978-3-319-42911-3_8}
+  {\path{doi:10.1007/978-3-319-42911-3_8}}.
+
+\bibitem{Kachouie2007}
+N.~N. Kachouie, P.~Fieguth, {A medical texture local binary pattern for TRUS
+  prostate segmentation}, Annual International Conference of the IEEE
+  Engineering in Medicine and Biology - Proceedings (2007) 5605--5608\href
+  {http://dx.doi.org/10.1109/IEMBS.2007.4353617}
+  {\path{doi:10.1109/IEMBS.2007.4353617}}.
+
+\bibitem{Guo2010}
+Z.~Guo, L.~Zhang, D.~Zhang, A completed modeling of local binary pattern
+  operator for texture classificatio, IEEE Transactions on Image Processing
+  19~(6) (2010) 1657--1663.
+\newblock \href {http://dx.doi.org/10.1109/TIP.2010.2044957}
+  {\path{doi:10.1109/TIP.2010.2044957}}.
+
+\bibitem{Varney2015}
+N.~M. Varney, V.~K. Asari, {Volumetrie features for object region
+  classification in 3D LiDAR point clouds}, Proceedings - Applied Imagery
+  Pattern Recognition Workshop 2015-February~(February).
+\newblock \href {http://dx.doi.org/10.1109/AIPR.2014.7041941}
+  {\path{doi:10.1109/AIPR.2014.7041941}}.
+
+\bibitem{Prasad2016}
+P.~S. Prasad, B.~P. Rao,
+  \href{http://ieeexplore.ieee.org/document/7566245/}{{LBP-HF features and
+  machine learning applied for automated monitoring of insulators for overhead
+  power distribution lines}}, 2016 International Conference on Wireless
+  Communications, Signal Processing and Networking (WiSPNET) (2016)
+  808--812\href {http://dx.doi.org/10.1109/WiSPNET.2016.7566245}
+  {\path{doi:10.1109/WiSPNET.2016.7566245}}.
+\newline\urlprefix\url{http://ieeexplore.ieee.org/document/7566245/}
+
+\bibitem{Tan2010}
+X.~Tan, B.~Triggs,
+  \href{http://www.ncbi.nlm.nih.gov/pubmed/20172829}{{Recognition Under
+  Difficult Lighting Conditions}}, IEEE transactions on image processing 19~(6)
+  (2010) 1635--1650.
+\newblock \href {http://dx.doi.org/10.1109/TIP.2010.2042645}
+  {\path{doi:10.1109/TIP.2010.2042645}}.
+\newline\urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/20172829}
+
+\bibitem{Wang2014}
+Z.~Wang, R.~Huang, W.~Yang, C.~Sun, {An enhanced Local Ternary Patterns method
+  for face recognition}, Proceedings of the 33rd Chinese Control Conference,
+  CCC 2014 0~(1) (2014) 4636--4640.
+\newblock \href {http://dx.doi.org/10.1109/ChiCC.2014.6895720}
+  {\path{doi:10.1109/ChiCC.2014.6895720}}.
+
+\bibitem{Kawathekar2015}
+P.~P. Kawathekar, Use of textural and statistical features for analyzing
+  severity of radio-graphic osteoarthritis of knee joint, 2015, pp. 1---4.
+
+\bibitem{Liu2017}
+Y.~Liu, S.~Liu, F.~Qu, Q.~Li, R.~Cheng, Z.~Ye,
+  \href{http://www.oncotarget.com/fulltext/15399}{{Tumor heterogeneity assessed
+  by texture analysis on contrast-enhanced CT in lung adenocarcinoma:
+  association with pathologic grade}}, Oncotarget 8~(32) (2017) 53664--53674.
+\newblock \href {http://dx.doi.org/10.18632/oncotarget.15399}
+  {\path{doi:10.18632/oncotarget.15399}}.
+\newline\urlprefix\url{http://www.oncotarget.com/fulltext/15399}
+
+\bibitem{Miles2013}
+K.~A. Miles, B.~Ganeshan, M.~P. Hayball, {CT texture analysis using the
+  filtration-histogram method: What do the measurements mean?}, Cancer Imaging
+  13~(3) (2013) 400--406.
+\newblock \href {http://dx.doi.org/10.1102/1470-7330.2013.9045}
+  {\path{doi:10.1102/1470-7330.2013.9045}}.
+
+\bibitem{Weltens2001}
+C.~Weltens, J.~Menten, M.~Feron, E.~Bellon, P.~Demaerel, F.~Maes, W.~{Van Den
+  Bogaert}, E.~{Van Der Schueren}, {Interobserver variations in gross tumor
+  volume delineation of brain tumors on computed tomography and impact of
+  magnetic resonance imaging}, Radiotherapy and Oncology 60~(1) (2001) 49--59.
+\newblock \href {http://dx.doi.org/10.1016/S0167-8140(01)00371-1}
+  {\path{doi:10.1016/S0167-8140(01)00371-1}}.
+
+\bibitem{Yu2009}
+H.~Yu, C.~Caldwell, K.~Mah, D.~Mozeg, {Coregistered FDG PET/CT-based textural
+  characterization of head and neck cancer for radiation treatment planning},
+  IEEE Transactions on Medical Imaging 28~(3) (2009) 374--383.
+\newblock \href {http://dx.doi.org/10.1109/TMI.2008.2004425}
+  {\path{doi:10.1109/TMI.2008.2004425}}.
+
+\bibitem{Zhou2007}
+B.~Z.~B. Zhou, J.~X.~J. Xuan, H.~Z.~H. Zhao, G.~Chepko, M.~Freedman, K.~Y. Z.
+  K.~Y. Zou, {Polarization imaging for breast cancer diagnosis using texture
+  analysis and SVM}, 2007 IEEE/NIH Life Science Systems and Applications
+  Workshop (2007) 217--220\href {http://dx.doi.org/10.1109/LSSA.2007.4400923}
+  {\path{doi:10.1109/LSSA.2007.4400923}}.
+
+\bibitem{Xu2006}
+Y.~Xu, M.~Sonka, G.~McLennan, J.~Guo, E.~A. Huffman, {MDCT-based 3-D texture
+  classification of emphysema and early smoking related lung pathologies}, IEEE
+  Transactions on Medical Imaging 25~(4) (2006) 464--475.
+\newblock \href {http://dx.doi.org/10.1109/TMI.2006.870889}
+  {\path{doi:10.1109/TMI.2006.870889}}.
+
+\bibitem{Vasconcelos}
+S.~M. H.~E. Uppaluri~R, Mitsa~T, M.~G., {Classification of Pulmonary Emphysema
+  from Computed Tomography Images}, American Journal of Respiratory Care in
+  Medicine (1997) 248--254.
+
+\bibitem{PoddaB.2005}
+Z.~G. G.~A. {Podda B.},
+  \href{http://www.scopus.com/inward/record.url?eid=2-s2.0-33747614113{\&}partnerID=40{\&}md5=d93883aa6998fce84b532ff10b65f745}{{Texture
+  analysis for vascular segmentation from CT images}}, International Congress
+  Series 1281 (2005) 206--211.
+\newline\urlprefix\url{http://www.scopus.com/inward/record.url?eid=2-s2.0-33747614113{\&}partnerID=40{\&}md5=d93883aa6998fce84b532ff10b65f745}
+
+\bibitem{Ahmed2013}
+A.~Ahmed, P.~Gibbs, M.~Pickles, L.~Turnbull, {Texture analysis in assessment
+  and prediction of chemotherapy response in breast cancer}, Journal of
+  Magnetic Resonance Imaging 38~(1) (2013) 89--101.
+\newblock \href {http://dx.doi.org/10.1002/jmri.23971}
+  {\path{doi:10.1002/jmri.23971}}.
+
+\bibitem{Yuan2013}
+J.~Yuan, W.~Qiu, M.~Rajchl, E.~Ukwatta, X.~C. Tai, A.~Fenster, {Efficient 3D
+  endfiring TRUS prostate segmentation with globally optimized rotational
+  symmetry}, Proceedings of the IEEE Computer Society Conference on Computer
+  Vision and Pattern Recognition (2013) 2211--2218\href
+  {http://dx.doi.org/10.1109/CVPR.2013.287} {\path{doi:10.1109/CVPR.2013.287}}.
+
+\bibitem{Esgiar2002}
+A.~N. Esgiar, R.~N.~G. Naguib, B.~S. Sharif, M.~K. Bennett, A.~Murray,
+  \href{http://www.ncbi.nlm.nih.gov/pubmed/11936597}{{Fractal analysis in the
+  detection of colonic cancer images.}}, IEEE transactions on information
+  technology in biomedicine : a publication of the IEEE Engineering in Medicine
+  and Biology Society 6~(1) (2002) 54--8.
+\newblock \href {http://dx.doi.org/10.1109/4233.992163}
+  {\path{doi:10.1109/4233.992163}}.
+\newline\urlprefix\url{http://www.ncbi.nlm.nih.gov/pubmed/11936597}
+
+\bibitem{ValdesHernandez2017}
+M.~d.~C. {Vald{\'{e}}s Hern{\'{a}}ndez}, V.~Gonz{\'{a}}lez-Castro, F.~M.
+  Chappell, E.~Sakka, S.~Makin, P.~A. Armitage, W.~H. Nailon, J.~M. Wardlaw,
+  \href{http://journal.frontiersin.org/article/10.3389/fneur.2017.00327/full}{{Application
+  of Texture Analysis to Study Small Vessel Disease and Blood–Brain Barrier
+  Integrity}}, Frontiers in Neurology 8~(July).
+\newblock \href {http://dx.doi.org/10.3389/fneur.2017.00327}
+  {\path{doi:10.3389/fneur.2017.00327}}.
+\newline\urlprefix\url{http://journal.frontiersin.org/article/10.3389/fneur.2017.00327/full}
+
+\bibitem{Ntroduction2014}
+I.~Ntroduction, {Diagnosis of Skin Cancer Using Image Texture Analysis} 5~(6)
+  (2014) 155--161.
+
+\bibitem{Pham2017}
+T.~D. Pham, Y.~Watanabe, M.~Higuchi, H.~Suzuki,
+  \href{http://dx.doi.org/10.1038/srep43209}{{Texture Analysis and Synthesis of
+  Malignant and Benign Mediastinal Lymph Nodes in Patients with Lung Cancer on
+  Computed Tomography}}, Scientific Reports 7~(January) (2017) 1--10.
+\newblock \href {http://dx.doi.org/10.1038/srep43209}
+  {\path{doi:10.1038/srep43209}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1038/srep43209}
+
+\bibitem{Ojala1996}
+T.~Ojala, M.~Pietik{\"{a}}inen, D.~Harwood, {A comparative study of texture
+  measures with classification based on featured distributions}, Pattern
+  Recognition 29~(1) (1996) 51--59.
+\newblock \href {http://dx.doi.org/10.1016/0031-3203(95)00067-4}
+  {\path{doi:10.1016/0031-3203(95)00067-4}}.
+
+\bibitem{Mehta2013}
+R.~Mehta, K.~Egiazarian,
+  \href{http://dblp.uni-trier.de/db/conf/icpram/icpram2013.html{\#}MehtaE13}{{Rotated
+  Local Binary Pattern (RLBP) - Rotation Invariant Texture Descriptor.}},
+  Icpram (2013) 497--502.
+\newline\urlprefix\url{http://dblp.uni-trier.de/db/conf/icpram/icpram2013.html{\#}MehtaE13}
+
+\bibitem{Mehta2016}
+R.~Mehta, K.~Egiazarian,
+  \href{http://dx.doi.org/10.1016/j.patrec.2015.11.019}{{Dominant Rotated Local
+  Binary Patterns (DRLBP) for texture classification}}, Pattern Recognition
+  Letters 71 (2016) 16--22.
+\newblock \href {http://dx.doi.org/10.1016/j.patrec.2015.11.019}
+  {\path{doi:10.1016/j.patrec.2015.11.019}}.
+\newline\urlprefix\url{http://dx.doi.org/10.1016/j.patrec.2015.11.019}
+
+\bibitem{Guo2011}
+Y.~Guo, G.~Zhao, M.~Pietik{\"{a}}inen,
+  \href{http://www.bmva.org/bmvc/2011/proceedings/paper119/paper119.pdf}{{Texture
+  classification using a linear configuration model based descriptor}},
+  Proceedings of the British Machine Vision Conference~(August 2016) (2011)
+  199.1--199.10.
+\newblock \href {http://dx.doi.org/10.5244/C.25.119}
+  {\path{doi:10.5244/C.25.119}}.
+\newline\urlprefix\url{http://www.bmva.org/bmvc/2011/proceedings/paper119/paper119.pdf}
+
+\bibitem{Hall1999}
+M.~Hall,
+  \href{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.9584{\&}rep=rep1{\&}type=pdf}{{Correlation-based
+  Feature Selection for Machine Learning}}, Methodology 21i195-i20~(April)
+  (1999) 1--5.
+\newblock \href {http://arxiv.org/abs/9809069v1} {\path{arXiv:9809069v1}},
+  \href {http://dx.doi.org/10.1.1.149.3848} {\path{doi:10.1.1.149.3848}}.
+\newline\urlprefix\url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.62.9584{\&}rep=rep1{\&}type=pdf}
+
+\bibitem{Lewandowski2015}
+C.~M. Lewandowski, N.~Co-investigator, C.~M. Lewandowski, {Correlation-based
+  Feature Selection for Discrete and Numeric Class Machine Learning}, The
+  effects of brief mindfulness intervention on acute pain experience: An
+  examination of individual difference 1 (2015) 1689--1699.
+\newblock \href {http://arxiv.org/abs/arXiv:1011.1669v3}
+  {\path{arXiv:arXiv:1011.1669v3}}, \href
+  {http://dx.doi.org/10.1017/CBO9781107415324.004}
+  {\path{doi:10.1017/CBO9781107415324.004}}.
+
+\bibitem{Plackett1983}
+R.~L. Plackett, {Karl Pearson and the Chi-squared Test} 51 (1983) 59--72.
+
+\bibitem{Roobaert}
+D.~Roobaert, G.~Karakoulas, N.~V. Chawla, {Feature Extraction, Foundations and
+  Applications, Chapter 22 Information Gain , Correlation and Support Vector
+  Machines}, Series Studies in Fuzziness and Soft Computing, Physica-Verlag,
+  Springer, 2006.
+
+\bibitem{Lei2012}
+S.~Lei, \href{http://ieeexplore.ieee.org/document/6188038/}{{A Feature
+  Selection Method Based on Information Gain and Genetic Algorithm}}, 2012
+  International Conference on Computer Science and Electronics Engineering
+  (2012) 355--358\href {http://dx.doi.org/10.1109/ICCSEE.2012.97}
+  {\path{doi:10.1109/ICCSEE.2012.97}}.
+\newline\urlprefix\url{http://ieeexplore.ieee.org/document/6188038/}
+
+\bibitem{Han2012}
+J.~Han, M.~Kamber, J.~Pei,
+  \href{http://myweb.sabanciuniv.edu/rdehkharghani/files/2016/02/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf{\%}0Ahttp://scholar.google.com/schol}{{Data
+  Mining: Concepts and Techniques}}, 2012.
+\newblock \href {http://arxiv.org/abs/arXiv:1011.1669v3}
+  {\path{arXiv:arXiv:1011.1669v3}}, \href
+  {http://dx.doi.org/10.1016/B978-0-12-381479-1.00001-0}
+  {\path{doi:10.1016/B978-0-12-381479-1.00001-0}}.
+\newline\urlprefix\url{http://myweb.sabanciuniv.edu/rdehkharghani/files/2016/02/The-Morgan-Kaufmann-Series-in-Data-Management-Systems-Jiawei-Han-Micheline-Kamber-Jian-Pei-Data-Mining.-Concepts-and-Techniques-3rd-Edition-Morgan-Kaufmann-2011.pdf{\%}0Ahttp://scholar.google.com/schol}
+
+\bibitem{Kira1994}
+K.~Kira, L.~Rendell, {A practical approach to feature selection} (1994).
+
+\bibitem{Quinlan1986}
+J.~R. Quinlan, {Induction of Decision Trees}, Machine Learning 1~(1) (1986)
+  81--106.
+\newblock \href {http://dx.doi.org/10.1023/A:1022643204877}
+  {\path{doi:10.1023/A:1022643204877}}.
+
+\bibitem{Webb2005}
+G.~I. Webb, J.~R. Boughton, Z.~Wang, {Not so naive Bayes: Aggregating
+  one-dependence estimators}, Machine Learning 58~(1) (2005) 5--24.
+\newblock \href {http://arxiv.org/abs/1511.03816} {\path{arXiv:1511.03816}},
+  \href {http://dx.doi.org/10.1007/s10994-005-4258-6}
+  {\path{doi:10.1007/s10994-005-4258-6}}.
+
+\bibitem{Friedman1998}
+N.~Friedman, K.~Murphy, S.~Russell,
+  \href{http://dl.acm.org/citation.cfm?id=2074111}{{Learning the structure of
+  dynamic probabilistic networks}}, Proceedings of the Fourteenth {\ldots} 0.
+\newline\urlprefix\url{http://dl.acm.org/citation.cfm?id=2074111}
+
+\bibitem{Lowd2005}
+D.~Lowd, P.~Domingos,
+  \href{http://portal.acm.org/citation.cfm?doid=1102351.1102418}{{Naive Bayes
+  models for probability estimation}}, Proceedings of the 22nd international
+  conference on Machine learning - ICML '05 (2005) 529--536\href
+  {http://dx.doi.org/10.1145/1102351.1102418}
+  {\path{doi:10.1145/1102351.1102418}}.
+\newline\urlprefix\url{http://portal.acm.org/citation.cfm?doid=1102351.1102418}
+
+\bibitem{Cortes1995}
+C.~Cortes, V.~Vapnik, {Support-Vector Networks}, Machine Learning 20~(3) (1995)
+  273--297.
+\newblock \href {http://arxiv.org/abs/arXiv:1011.1669v3}
+  {\path{arXiv:arXiv:1011.1669v3}}, \href
+  {http://dx.doi.org/10.1023/A:1022627411411}
+  {\path{doi:10.1023/A:1022627411411}}.
+
+\bibitem{Wilson2015}
+J.~R. Wilson, K.~A. Lorenz,
+  \href{http://link.springer.com/10.1007/978-3-319-23805-0}{{Modeling Binary
+  Correlated Responses using SAS, SPSS and R}} 9 (2015) 17--24.
+\newblock \href {http://dx.doi.org/10.1007/978-3-319-23805-0}
+  {\path{doi:10.1007/978-3-319-23805-0}}.
+\newline\urlprefix\url{http://link.springer.com/10.1007/978-3-319-23805-0}
+
+\bibitem{Platt1998}
+J.~C. Platt,
+  \href{http://www.bradblock.com/Sequential{\_}Minimal{\_}Optimization{\_}A{\_}Fast{\_}Algorithm{\_}for{\_}Training{\_}Support{\_}Vector{\_}Machine.pdf}{{Sequential
+  Minimal Optimization: A Fast Algorithm for Training Support Vector
+  Machines}}, Advances in kernel methods (1998) 185 -- 208\href
+  {http://arxiv.org/abs/arXiv:1011.1669v3} {\path{arXiv:arXiv:1011.1669v3}},
+  \href {http://dx.doi.org/10.1.1.43.4376} {\path{doi:10.1.1.43.4376}}.
+\newline\urlprefix\url{http://www.bradblock.com/Sequential{\_}Minimal{\_}Optimization{\_}A{\_}Fast{\_}Algorithm{\_}for{\_}Training{\_}Support{\_}Vector{\_}Machine.pdf}
+
+\bibitem{Kelley1960}
+H.~J. Kelley, \href{http://arc.aiaa.org/doi/10.2514/8.5282}{{Gradient Theory of
+  Optimal Flight Paths}}, ARS Journal 30~(10) (1960) 947--954.
+\newblock \href {http://dx.doi.org/10.2514/8.5282} {\path{doi:10.2514/8.5282}}.
+\newline\urlprefix\url{http://arc.aiaa.org/doi/10.2514/8.5282}
+
+\end{thebibliography}

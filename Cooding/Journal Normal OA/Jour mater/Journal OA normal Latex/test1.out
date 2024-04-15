@@ -1,0 +1,42 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Related Work}{}% 2
+\BOOKMARK [1][-]{section.3}{Proposed Framework}{}% 3
+\BOOKMARK [1][-]{section.4}{Texture Descriptor}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Histogram feature}{section.4}% 5
+\BOOKMARK [2][-]{subsection.4.2}{Local Binary Pattern \(LBP\)}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Completed LBP \(CLBP\)}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.4}{Rotated LBP \(RLBP\)}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.5}{LBP Rotation Invariant \(LBPri\)}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.6}{LBP Histogram Fourier \(LBP-HF\)}{section.4}% 10
+\BOOKMARK [2][-]{subsection.4.7}{Local Configuration Pattern \(LCP\)}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.8}{Local Ternary Pattern \(LTP\)}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.9}{Haralick feature}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.10}{Gabor filter feature}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Feature Selection}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{Correlation-based Feature Selection \(CFS\)}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.2}{Chi-Square \(2\)}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.3}{Information Gain}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.4}{Gain Ratio}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.5}{Relief}{section.5}% 20
+\BOOKMARK [1][-]{section.6}{Classification}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{Decision Tree \(C4.5\)}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{Binary Split Tree}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.3}{Average One-Dependence Estimators \(AODE\)}{section.6}% 24
+\BOOKMARK [2][-]{subsection.6.4}{Bayesian Network \(BN\)}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.5}{Na\357ve Bayes Classifier}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.6}{Support Vector Machine \(SVM\)}{section.6}% 27
+\BOOKMARK [3][-]{subsubsection.6.6.1}{Linear classification}{subsection.6.6}% 28
+\BOOKMARK [3][-]{subsubsection.6.6.2}{Non-linear classification}{subsection.6.6}% 29
+\BOOKMARK [2][-]{subsection.6.7}{Logistic Regression}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.8}{Sequential Minimal Optimization \(SMO\)}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.9}{Backpropagation}{section.6}% 32
+\BOOKMARK [1][-]{section.7}{Data Collection}{}% 33
+\BOOKMARK [2][-]{subsection.7.1}{Dataset}{section.7}% 34
+\BOOKMARK [2][-]{subsection.7.2}{Region of Interest \(ROI\)}{section.7}% 35
+\BOOKMARK [1][-]{section.8}{Evaluation}{}% 36
+\BOOKMARK [2][-]{subsection.8.1}{Region of Interest \(ROI\) results}{section.8}% 37
+\BOOKMARK [2][-]{subsection.8.2}{Texture descriptor results}{section.8}% 38
+\BOOKMARK [2][-]{subsection.8.3}{Feature selection technique results}{section.8}% 39
+\BOOKMARK [2][-]{subsection.8.4}{Classification algorithm results}{section.8}% 40
+\BOOKMARK [1][-]{section.9}{Conclusions}{}% 41
+\BOOKMARK [1][-]{section.10}{Acknowledgement}{}% 42

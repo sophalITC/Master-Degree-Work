@@ -1,0 +1,142 @@
+@relation '1stGLCM Medial Femur ROI '
+
+@attribute File {'Medial Femur of G1_1.jpg','Medial Femur of G1_10.jpg','Medial Femur of G1_11.jpg','Medial Femur of G1_12.jpg','Medial Femur of G1_13.jpg','Medial Femur of G1_14.jpg','Medial Femur of G1_15.jpg','Medial Femur of G1_16.jpg','Medial Femur of G1_17.jpg','Medial Femur of G1_18.jpg','Medial Femur of G1_2.jpg','Medial Femur of G1_3.jpg','Medial Femur of G1_4.jpg','Medial Femur of G1_5.jpg','Medial Femur of G1_6.jpg','Medial Femur of G1_7.jpg','Medial Femur of G1_8.jpg','Medial Femur of G1_9.jpg','Medial Femur of G2_1.jpg','Medial Femur of G2_10.jpg','Medial Femur of G2_11.jpg','Medial Femur of G2_12.jpg','Medial Femur of G2_13.jpg','Medial Femur of G2_14.jpg','Medial Femur of G2_15.jpg','Medial Femur of G2_16.jpg','Medial Femur of G2_17.jpg','Medial Femur of G2_18.jpg','Medial Femur of G2_19.jpg','Medial Femur of G2_2.jpg','Medial Femur of G2_20.jpg','Medial Femur of G2_21.jpg','Medial Femur of G2_3.jpg','Medial Femur of G2_4.jpg','Medial Femur of G2_5.jpg','Medial Femur of G2_6.jpg','Medial Femur of G2_7.jpg','Medial Femur of G2_8.jpg','Medial Femur of G2_9.jpg','Medial Femur of G3_1.jpg','Medial Femur of G3_10.jpg','Medial Femur of G3_11.jpg','Medial Femur of G3_12.jpg','Medial Femur of G3_13.jpg','Medial Femur of G3_14.jpg','Medial Femur of G3_15.jpg','Medial Femur of G3_16.jpg','Medial Femur of G3_17.jpg','Medial Femur of G3_18.jpg','Medial Femur of G3_19.jpg','Medial Femur of G3_2.jpg','Medial Femur of G3_20.jpg','Medial Femur of G3_21.jpg','Medial Femur of G3_22.jpg','Medial Femur of G3_23.jpg','Medial Femur of G3_24.jpg','Medial Femur of G3_25.jpg','Medial Femur of G3_26.jpg','Medial Femur of G3_27.jpg','Medial Femur of G3_28.jpg','Medial Femur of G3_29.jpg','Medial Femur of G3_3.jpg','Medial Femur of G3_30.jpg','Medial Femur of G3_31.jpg','Medial Femur of G3_32.jpg','Medial Femur of G3_33.jpg','Medial Femur of G3_34.jpg','Medial Femur of G3_35.jpg','Medial Femur of G3_36.jpg','Medial Femur of G3_37.jpg','Medial Femur of G3_38.jpg','Medial Femur of G3_39.jpg','Medial Femur of G3_4.jpg','Medial Femur of G3_40.jpg','Medial Femur of G3_41.jpg','Medial Femur of G3_42.jpg','Medial Femur of G3_43.jpg','Medial Femur of G3_44.jpg','Medial Femur of G3_5.jpg','Medial Femur of G3_6.jpg','Medial Femur of G3_7.jpg','Medial Femur of G3_8.jpg','Medial Femur of G3_9.jpg','Medial Femur of G4_1.jpg','Medial Femur of G4_2.jpg','Medial Femur of G4_3.jpg','Medial Femur of G4_4.jpg','Medial Femur of G4_5.jpg','Medial Femur of G4_6.jpg','Medial Femur of G4_7.jpg','Medial Femur of G4_8.jpg','Medial Femur of Nor_1.jpg','Medial Femur of Nor_10.jpg','Medial Femur of Nor_11.jpg','Medial Femur of Nor_12.jpg','Medial Femur of Nor_13.jpg','Medial Femur of Nor_14.jpg','Medial Femur of Nor_15.jpg','Medial Femur of Nor_16.jpg','Medial Femur of Nor_17.jpg','Medial Femur of Nor_18.jpg','Medial Femur of Nor_19.jpg','Medial Femur of Nor_2.jpg','Medial Femur of Nor_20.jpg','Medial Femur of Nor_21.jpg','Medial Femur of Nor_22.jpg','Medial Femur of Nor_23.jpg','Medial Femur of Nor_24.jpg','Medial Femur of Nor_25.jpg','Medial Femur of Nor_26.jpg','Medial Femur of Nor_27.jpg','Medial Femur of Nor_28.jpg','Medial Femur of Nor_29.jpg','Medial Femur of Nor_3.jpg','Medial Femur of Nor_30.jpg','Medial Femur of Nor_31.jpg','Medial Femur of Nor_32.jpg','Medial Femur of Nor_33.jpg','Medial Femur of Nor_34.jpg','Medial Femur of Nor_35.jpg','Medial Femur of Nor_36.jpg','Medial Femur of Nor_37.jpg','Medial Femur of Nor_38.jpg','Medial Femur of Nor_39.jpg','Medial Femur of Nor_4.jpg','Medial Femur of Nor_5.jpg','Medial Femur of Nor_6.jpg','Medial Femur of Nor_7.jpg','Medial Femur of Nor_8.jpg','Medial Femur of Nor_9.jpg'}
+@attribute Mean1 numeric
+@attribute Variance2 numeric
+@attribute Skewness3 numeric
+@attribute Kurtosis4 numeric
+@attribute Energy5 numeric
+@attribute Entropy6 numeric
+@attribute class {'Grade 1','Grade 2','Grade 3','Grade 4',Normal}
+
+@data
+'Medial Femur of G1_1.jpg',5.79,1.41,-0.512,3.11,0.243,1.56,'Grade 1'
+'Medial Femur of G1_10.jpg',5.29,2.44,-0.308,2.13,0.183,1.79,'Grade 1'
+'Medial Femur of G1_11.jpg',6.39,2.37,-0.956,3.14,0.233,1.67,'Grade 1'
+'Medial Femur of G1_12.jpg',5.51,1.43,-0.485,3.33,0.249,1.57,'Grade 1'
+'Medial Femur of G1_13.jpg',4.98,1.09,-0.125,2.94,0.268,1.46,'Grade 1'
+'Medial Femur of G1_14.jpg',5.65,2.11,-0.428,2.49,0.198,1.74,'Grade 1'
+'Medial Femur of G1_15.jpg',5.92,1.85,-0.92,3.44,0.246,1.61,'Grade 1'
+'Medial Femur of G1_16.jpg',6.64,1.83,-1.18,4.13,0.268,1.55,'Grade 1'
+'Medial Femur of G1_17.jpg',5.8,2.6,-0.33,2.16,0.174,1.83,'Grade 1'
+'Medial Femur of G1_18.jpg',6.34,2.33,-1.04,3.38,0.244,1.65,'Grade 1'
+'Medial Femur of G1_2.jpg',5.39,1.34,-0.358,3.13,0.247,1.56,'Grade 1'
+'Medial Femur of G1_3.jpg',5.73,1.64,-0.352,2.91,0.22,1.65,'Grade 1'
+'Medial Femur of G1_4.jpg',5.54,1.83,-0.303,2.5,0.205,1.69,'Grade 1'
+'Medial Femur of G1_5.jpg',5.87,2.34,-0.72,2.61,0.22,1.7,'Grade 1'
+'Medial Femur of G1_6.jpg',6.23,1.75,-0.742,3.17,0.233,1.63,'Grade 1'
+'Medial Femur of G1_7.jpg',5.64,1.63,-0.455,2.94,0.224,1.64,'Grade 1'
+'Medial Femur of G1_8.jpg',5.17,2.21,0.0123,2.09,0.183,1.77,'Grade 1'
+'Medial Femur of G1_9.jpg',4.96,1.94,-0.402,2.61,0.208,1.71,'Grade 1'
+'Medial Femur of G2_1.jpg',5.79,1.64,-0.382,2.96,0.226,1.65,'Grade 2'
+'Medial Femur of G2_10.jpg',5.75,1.35,-0.311,2.97,0.243,1.56,'Grade 2'
+'Medial Femur of G2_11.jpg',4.37,1.33,0.54,3.52,0.259,1.53,'Grade 2'
+'Medial Femur of G2_12.jpg',5.38,1.27,-0.118,3.14,0.255,1.53,'Grade 2'
+'Medial Femur of G2_13.jpg',5.48,1.99,-0.526,3,0.209,1.73,'Grade 2'
+'Medial Femur of G2_14.jpg',5.69,1.49,-0.308,2.9,0.232,1.61,'Grade 2'
+'Medial Femur of G2_15.jpg',4.91,1.4,-0.195,2.92,0.24,1.58,'Grade 2'
+'Medial Femur of G2_16.jpg',5.91,2.06,-0.405,2.55,0.196,1.74,'Grade 2'
+'Medial Femur of G2_17.jpg',5.24,2.16,-0.34,2.44,0.191,1.77,'Grade 2'
+'Medial Femur of G2_18.jpg',5.62,1.59,-0.388,2.91,0.224,1.63,'Grade 2'
+'Medial Femur of G2_19.jpg',5.28,1.81,-0.351,2.99,0.218,1.69,'Grade 2'
+'Medial Femur of G2_2.jpg',5.81,1.2,-0.235,3.05,0.258,1.5,'Grade 2'
+'Medial Femur of G2_20.jpg',4.84,1.48,0.143,3.07,0.235,1.61,'Grade 2'
+'Medial Femur of G2_21.jpg',5.55,1.96,-0.608,2.88,0.215,1.7,'Grade 2'
+'Medial Femur of G2_3.jpg',5.03,2.12,-0.129,2.43,0.188,1.78,'Grade 2'
+'Medial Femur of G2_4.jpg',5.1,1.2,0.0905,3.06,0.264,1.51,'Grade 2'
+'Medial Femur of G2_5.jpg',5.09,1.29,-0.165,3.24,0.254,1.54,'Grade 2'
+'Medial Femur of G2_6.jpg',5.66,2.09,-0.354,2.47,0.194,1.75,'Grade 2'
+'Medial Femur of G2_7.jpg',5.46,1.55,-0.117,2.85,0.224,1.64,'Grade 2'
+'Medial Femur of G2_8.jpg',5.4,1.99,-0.432,2.66,0.201,1.73,'Grade 2'
+'Medial Femur of G2_9.jpg',5.17,1.35,-0.237,3.09,0.246,1.56,'Grade 2'
+'Medial Femur of G3_1.jpg',5.44,1.3,-0.593,3.6,0.269,1.52,'Grade 3'
+'Medial Femur of G3_10.jpg',5.67,1.23,-0.249,2.85,0.252,1.51,'Grade 3'
+'Medial Femur of G3_11.jpg',4.27,1.49,0.0547,2.72,0.228,1.61,'Grade 3'
+'Medial Femur of G3_12.jpg',5.62,1.88,-0.621,3,0.222,1.68,'Grade 3'
+'Medial Femur of G3_13.jpg',4.86,1.15,-0.176,3.29,0.275,1.48,'Grade 3'
+'Medial Femur of G3_14.jpg',4.81,1.66,0.198,2.71,0.215,1.66,'Grade 3'
+'Medial Femur of G3_15.jpg',4.95,1.55,-0.0695,2.97,0.228,1.64,'Grade 3'
+'Medial Femur of G3_16.jpg',4.93,1.67,0.109,2.71,0.215,1.67,'Grade 3'
+'Medial Femur of G3_17.jpg',5.33,1.37,-0.245,3.05,0.243,1.57,'Grade 3'
+'Medial Femur of G3_18.jpg',5.99,1.68,-0.677,3.64,0.229,1.63,'Grade 3'
+'Medial Femur of G3_19.jpg',4.53,1.63,-0.0134,2.77,0.221,1.65,'Grade 3'
+'Medial Femur of G3_2.jpg',5.4,1.32,-0.441,3.35,0.254,1.54,'Grade 3'
+'Medial Femur of G3_20.jpg',4.84,1.32,0.0029,3,0.245,1.56,'Grade 3'
+'Medial Femur of G3_21.jpg',4.97,1.32,0.111,3.07,0.248,1.56,'Grade 3'
+'Medial Femur of G3_22.jpg',5.68,1.43,-0.362,3.09,0.238,1.58,'Grade 3'
+'Medial Femur of G3_23.jpg',4.73,0.846,0.0346,2.71,0.3,1.33,'Grade 3'
+'Medial Femur of G3_24.jpg',4.8,1.37,0.0965,2.9,0.239,1.58,'Grade 3'
+'Medial Femur of G3_25.jpg',4.89,1.48,0.0307,2.88,0.23,1.62,'Grade 3'
+'Medial Femur of G3_26.jpg',5.02,1.26,0.103,3.22,0.256,1.53,'Grade 3'
+'Medial Femur of G3_27.jpg',5.27,1.56,-0.153,2.73,0.224,1.63,'Grade 3'
+'Medial Femur of G3_28.jpg',5.44,1.37,-0.46,3.59,0.258,1.55,'Grade 3'
+'Medial Femur of G3_29.jpg',5.44,2.11,-0.405,2.55,0.194,1.75,'Grade 3'
+'Medial Femur of G3_3.jpg',4.91,1.56,0.172,2.86,0.225,1.64,'Grade 3'
+'Medial Femur of G3_30.jpg',5.69,1.8,-0.275,2.65,0.207,1.7,'Grade 3'
+'Medial Femur of G3_31.jpg',5.48,1.96,-0.554,2.75,0.214,1.7,'Grade 3'
+'Medial Femur of G3_32.jpg',5.75,1.17,-0.44,3.41,0.267,1.48,'Grade 3'
+'Medial Femur of G3_33.jpg',6.05,2.25,-0.632,2.79,0.2,1.75,'Grade 3'
+'Medial Femur of G3_34.jpg',5.54,0.991,-0.414,2.8,0.287,1.39,'Grade 3'
+'Medial Femur of G3_35.jpg',5.61,1.68,-0.226,2.63,0.213,1.66,'Grade 3'
+'Medial Femur of G3_36.jpg',6.08,1.23,-1.03,5.32,0.302,1.43,'Grade 3'
+'Medial Femur of G3_37.jpg',5.53,1.3,-0.466,3.46,0.256,1.53,'Grade 3'
+'Medial Femur of G3_38.jpg',5.46,1.43,-0.0639,3.24,0.247,1.59,'Grade 3'
+'Medial Femur of G3_39.jpg',4.31,1,-0.0193,3.01,0.284,?,'Grade 3'
+'Medial Femur of G3_4.jpg',5.68,1.79,-0.242,2.52,0.207,1.69,'Grade 3'
+'Medial Femur of G3_40.jpg',4.81,1.58,0.0507,2.83,0.223,1.65,'Grade 3'
+'Medial Femur of G3_41.jpg',5.23,1.43,-0.0843,2.79,0.233,1.6,'Grade 3'
+'Medial Femur of G3_42.jpg',6.15,1.68,-0.742,3.6,0.236,1.63,'Grade 3'
+'Medial Femur of G3_43.jpg',4.89,1.67,-0.232,2.6,0.215,1.66,'Grade 3'
+'Medial Femur of G3_44.jpg',4.32,1.52,-0.222,2.11,0.229,?,'Grade 3'
+'Medial Femur of G3_5.jpg',4.85,1.52,-0.036,2.86,0.228,1.63,'Grade 3'
+'Medial Femur of G3_6.jpg',5.86,1.62,-0.609,3.46,0.234,1.63,'Grade 3'
+'Medial Femur of G3_7.jpg',6.01,0.978,-0.411,3.33,0.292,1.39,'Grade 3'
+'Medial Femur of G3_8.jpg',4.88,1.92,-0.131,2.51,0.2,1.73,'Grade 3'
+'Medial Femur of G3_9.jpg',4.68,1.96,-0.0849,2.26,0.196,1.72,'Grade 3'
+'Medial Femur of G4_1.jpg',4.82,1.29,0.191,3.25,0.253,1.54,'Grade 4'
+'Medial Femur of G4_2.jpg',5.44,1.61,-0.163,2.63,0.217,1.65,'Grade 4'
+'Medial Femur of G4_3.jpg',4.43,1.6,0.297,2.84,0.226,1.64,'Grade 4'
+'Medial Femur of G4_4.jpg',5.36,1.03,-0.121,3.17,0.282,1.43,'Grade 4'
+'Medial Femur of G4_5.jpg',5.3,1.6,-0.297,2.75,0.222,1.64,'Grade 4'
+'Medial Femur of G4_6.jpg',4.9,2.27,0.129,2.51,0.182,1.82,'Grade 4'
+'Medial Femur of G4_7.jpg',5.23,2.46,-0.258,2.28,0.177,1.83,'Grade 4'
+'Medial Femur of G4_8.jpg',5.07,1.48,-0.46,2.7,0.237,1.58,'Grade 4'
+'Medial Femur of Nor_1.jpg',5.58,2.22,-0.328,2.6,0.188,1.79,Normal
+'Medial Femur of Nor_10.jpg',6.47,1.11,-1.03,5.1,0.308,1.4,Normal
+'Medial Femur of Nor_11.jpg',5.77,2.34,-0.541,2.46,0.2,1.75,Normal
+'Medial Femur of Nor_12.jpg',4.82,1.08,0.0453,3.07,0.275,1.46,Normal
+'Medial Femur of Nor_13.jpg',5.62,2.27,-0.495,2.69,0.192,1.78,Normal
+'Medial Femur of Nor_14.jpg',6.17,1.05,-0.355,3.46,0.28,1.43,Normal
+'Medial Femur of Nor_15.jpg',5.79,2.01,-0.499,2.58,0.206,1.71,Normal
+'Medial Femur of Nor_16.jpg',5.95,2.12,-0.821,2.98,0.233,1.67,Normal
+'Medial Femur of Nor_17.jpg',6.74,1.04,-0.973,4.01,0.322,1.34,Normal
+'Medial Femur of Nor_18.jpg',6.13,1.38,-0.668,3.46,0.255,1.54,Normal
+'Medial Femur of Nor_19.jpg',5.71,2.04,-0.475,2.88,0.202,1.74,Normal
+'Medial Femur of Nor_2.jpg',5.7,1.56,-0.546,3.29,0.236,1.61,Normal
+'Medial Femur of Nor_20.jpg',5.42,1.18,-0.142,3.13,0.261,1.5,Normal
+'Medial Femur of Nor_21.jpg',5.46,1.11,-0.367,3.3,0.276,1.46,Normal
+'Medial Femur of Nor_22.jpg',5.39,1.8,-0.46,2.58,0.219,1.66,Normal
+'Medial Femur of Nor_23.jpg',5.37,1.92,-0.0908,2.76,0.202,1.74,Normal
+'Medial Femur of Nor_24.jpg',5.67,1.64,-0.342,2.85,0.22,1.65,Normal
+'Medial Femur of Nor_25.jpg',5.9,1.5,-0.491,3.2,0.236,1.6,Normal
+'Medial Femur of Nor_26.jpg',5.5,2.7,-0.272,2.02,0.177,1.82,Normal
+'Medial Femur of Nor_27.jpg',5.36,0.982,-0.0927,3.03,0.285,1.41,Normal
+'Medial Femur of Nor_28.jpg',5.75,1.57,-0.602,3.16,0.235,1.6,Normal
+'Medial Femur of Nor_29.jpg',4.76,1.57,0.00783,2.6,0.219,1.64,Normal
+'Medial Femur of Nor_3.jpg',5.63,1.44,-0.228,2.96,0.236,1.59,Normal
+'Medial Femur of Nor_30.jpg',4.76,1.54,0.242,2.9,0.227,1.63,Normal
+'Medial Femur of Nor_31.jpg',5.31,1.06,-0.112,3.18,0.279,1.45,Normal
+'Medial Femur of Nor_32.jpg',5.93,1.13,-0.415,3.54,0.28,1.46,Normal
+'Medial Femur of Nor_33.jpg',5.6,1.54,-0.397,3.09,0.23,1.62,Normal
+'Medial Femur of Nor_34.jpg',4.78,1.3,-0.242,2.91,0.25,1.54,Normal
+'Medial Femur of Nor_35.jpg',5.66,1.57,-0.0131,2.7,0.221,1.64,Normal
+'Medial Femur of Nor_36.jpg',5.52,1.25,-0.171,3.23,0.259,1.53,Normal
+'Medial Femur of Nor_37.jpg',5.3,1.48,-0.0685,2.88,0.231,1.61,Normal
+'Medial Femur of Nor_38.jpg',6.15,2.63,-0.691,2.62,0.194,1.78,Normal
+'Medial Femur of Nor_39.jpg',6.01,2.56,-0.607,2.53,0.189,1.79,Normal
+'Medial Femur of Nor_4.jpg',5.49,0.961,-0.454,3.66,0.3,1.38,Normal
+'Medial Femur of Nor_5.jpg',4.86,1.05,-0.245,3.03,0.278,1.44,Normal
+'Medial Femur of Nor_6.jpg',5.57,2.11,-0.456,2.56,0.199,1.74,Normal
+'Medial Femur of Nor_7.jpg',5.64,1.17,-0.652,3.77,0.277,1.46,Normal
+'Medial Femur of Nor_8.jpg',6.11,0.91,-0.336,3.53,0.31,1.36,Normal
+'Medial Femur of Nor_9.jpg',5.37,2.06,-0.282,2.53,0.194,1.76,Normal

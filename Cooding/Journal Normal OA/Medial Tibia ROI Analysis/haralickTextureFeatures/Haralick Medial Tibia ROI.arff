@@ -1,0 +1,151 @@
+@relation 'Haralick Medial Tibia ROI '
+
+@attribute File {'Medial Tibia of Normal_1.jpg','Medial Tibia of Normal_10.jpg','Medial Tibia of Normal_11.jpg','Medial Tibia of Normal_12.jpg','Medial Tibia of Normal_13.jpg','Medial Tibia of Normal_14.jpg','Medial Tibia of Normal_15.jpg','Medial Tibia of Normal_16.jpg','Medial Tibia of Normal_17.jpg','Medial Tibia of Normal_18.jpg','Medial Tibia of Normal_19.jpg','Medial Tibia of Normal_2.jpg','Medial Tibia of Normal_20.jpg','Medial Tibia of Normal_21.jpg','Medial Tibia of Normal_22.jpg','Medial Tibia of Normal_23.jpg','Medial Tibia of Normal_24.jpg','Medial Tibia of Normal_25.jpg','Medial Tibia of Normal_26.jpg','Medial Tibia of Normal_27.jpg','Medial Tibia of Normal_28.jpg','Medial Tibia of Normal_29.jpg','Medial Tibia of Normal_3.jpg','Medial Tibia of Normal_30.jpg','Medial Tibia of Normal_31.jpg','Medial Tibia of Normal_32.jpg','Medial Tibia of Normal_33.jpg','Medial Tibia of Normal_34.jpg','Medial Tibia of Normal_35.jpg','Medial Tibia of Normal_36.jpg','Medial Tibia of Normal_37.jpg','Medial Tibia of Normal_38.jpg','Medial Tibia of Normal_39.jpg','Medial Tibia of Normal_4.jpg','Medial Tibia of Normal_40.jpg','Medial Tibia of Normal_41.jpg','Medial Tibia of Normal_42.jpg','Medial Tibia of Normal_43.jpg','Medial Tibia of Normal_44.jpg','Medial Tibia of Normal_45.jpg','Medial Tibia of Normal_46.jpg','Medial Tibia of Normal_47.jpg','Medial Tibia of Normal_48.jpg','Medial Tibia of Normal_49.jpg','Medial Tibia of Normal_5.jpg','Medial Tibia of Normal_50.jpg','Medial Tibia of Normal_51.jpg','Medial Tibia of Normal_52.jpg','Medial Tibia of Normal_53.jpg','Medial Tibia of Normal_54.jpg','Medial Tibia of Normal_55.jpg','Medial Tibia of Normal_56.jpg','Medial Tibia of Normal_57.jpg','Medial Tibia of Normal_58.jpg','Medial Tibia of Normal_59.jpg','Medial Tibia of Normal_6.jpg','Medial Tibia of Normal_60.jpg','Medial Tibia of Normal_61.jpg','Medial Tibia of Normal_62.jpg','Medial Tibia of Normal_63.jpg','Medial Tibia of Normal_7.jpg','Medial Tibia of Normal_8.jpg','Medial Tibia of Normal_9.jpg','Medial Tibia of OA_1.jpg','Medial Tibia of OA_10.jpg','Medial Tibia of OA_11.jpg','Medial Tibia of OA_12.jpg','Medial Tibia of OA_13.jpg','Medial Tibia of OA_14.jpg','Medial Tibia of OA_15.jpg','Medial Tibia of OA_16.jpg','Medial Tibia of OA_17.jpg','Medial Tibia of OA_18.jpg','Medial Tibia of OA_19.jpg','Medial Tibia of OA_2.jpg','Medial Tibia of OA_20.jpg','Medial Tibia of OA_21.jpg','Medial Tibia of OA_22.jpg','Medial Tibia of OA_23.jpg','Medial Tibia of OA_24.jpg','Medial Tibia of OA_25.jpg','Medial Tibia of OA_26.jpg','Medial Tibia of OA_27.jpg','Medial Tibia of OA_28.jpg','Medial Tibia of OA_29.jpg','Medial Tibia of OA_3.jpg','Medial Tibia of OA_30.jpg','Medial Tibia of OA_31.jpg','Medial Tibia of OA_32.jpg','Medial Tibia of OA_33.jpg','Medial Tibia of OA_34.jpg','Medial Tibia of OA_35.jpg','Medial Tibia of OA_36.jpg','Medial Tibia of OA_37.jpg','Medial Tibia of OA_38.jpg','Medial Tibia of OA_39.jpg','Medial Tibia of OA_4.jpg','Medial Tibia of OA_40.jpg','Medial Tibia of OA_41.jpg','Medial Tibia of OA_42.jpg','Medial Tibia of OA_43.jpg','Medial Tibia of OA_44.jpg','Medial Tibia of OA_45.jpg','Medial Tibia of OA_46.jpg','Medial Tibia of OA_47.jpg','Medial Tibia of OA_48.jpg','Medial Tibia of OA_49.jpg','Medial Tibia of OA_5.jpg','Medial Tibia of OA_50.jpg','Medial Tibia of OA_51.jpg','Medial Tibia of OA_52.jpg','Medial Tibia of OA_53.jpg','Medial Tibia of OA_54.jpg','Medial Tibia of OA_55.jpg','Medial Tibia of OA_56.jpg','Medial Tibia of OA_57.jpg','Medial Tibia of OA_58.jpg','Medial Tibia of OA_59.jpg','Medial Tibia of OA_6.jpg','Medial Tibia of OA_60.jpg','Medial Tibia of OA_61.jpg','Medial Tibia of OA_62.jpg','Medial Tibia of OA_63.jpg','Medial Tibia of OA_64.jpg','Medial Tibia of OA_65.jpg','Medial Tibia of OA_66.jpg','Medial Tibia of OA_67.jpg','Medial Tibia of OA_68.jpg','Medial Tibia of OA_7.jpg','Medial Tibia of OA_8.jpg','Medial Tibia of OA_9.jpg'}
+@attribute Feature_1 numeric
+@attribute Feature_2 numeric
+@attribute Feature_3 numeric
+@attribute Feature_4 numeric
+@attribute Feature_5 numeric
+@attribute Feature_6 numeric
+@attribute Feature_7 numeric
+@attribute Feature_8 numeric
+@attribute Feature_9 numeric
+@attribute Feature_10 numeric
+@attribute Feature_11 numeric
+@attribute Feature_12 numeric
+@attribute Feature_13 numeric
+@attribute Feature_14 numeric
+@attribute class {Nor,OA}
+
+@data
+'Medial Tibia of Normal_1.jpg',0.775,0.0741,0.549,36.5,0.963,12.1,147,0.516,0.819,0.0712,0.264,-0.298,0.499,0.125,Nor
+'Medial Tibia of Normal_10.jpg',0.438,0.184,0.556,18.4,0.908,8.57,74.1,0.943,1.55,0.154,0.478,-0.247,0.594,0.276,Nor
+'Medial Tibia of Normal_11.jpg',0.705,0.0652,0.724,17,0.967,8.26,68.6,0.583,0.907,0.0646,0.241,-0.463,0.649,0.174,Nor
+'Medial Tibia of Normal_12.jpg',0.851,0.0607,0.34,24.4,0.97,9.91,98.3,0.326,0.53,0.0611,0.229,-0.14,0.277,0.101,Nor
+'Medial Tibia of Normal_13.jpg',0.533,0.162,0.523,27,0.919,10.4,109,0.839,1.37,0.137,0.442,-0.228,0.545,0.223,Nor
+'Medial Tibia of Normal_14.jpg',0.648,0.122,0.506,26.4,0.939,10.3,106,0.659,1.07,0.107,0.37,-0.228,0.491,0.184,Nor
+'Medial Tibia of Normal_15.jpg',0.358,0.199,0.588,21.2,0.901,9.19,85.2,1.03,1.69,0.165,0.499,-0.268,0.638,0.35,Nor
+'Medial Tibia of Normal_16.jpg',0.468,0.212,0.505,15.3,0.894,7.79,61.4,1.05,1.73,0.175,0.517,-0.203,0.568,0.19,Nor
+'Medial Tibia of Normal_17.jpg',0.672,0.136,0.385,16.7,0.932,8.17,67.1,0.665,1.1,0.118,0.398,-0.144,0.396,0.15,Nor
+'Medial Tibia of Normal_18.jpg',0.308,0.242,0.571,30.3,0.879,11,122,1.2,1.97,0.197,0.553,-0.239,0.643,0.36,Nor
+'Medial Tibia of Normal_19.jpg',0.343,0.223,0.561,21.5,0.888,9.24,86.2,1.11,1.82,0.183,0.531,-0.24,0.626,0.33,Nor
+'Medial Tibia of Normal_2.jpg',0.362,0.274,0.377,28.4,0.863,10.7,114,1,1.72,0.221,0.587,-0.11,0.426,0.261,Nor
+'Medial Tibia of Normal_20.jpg',0.564,0.154,0.538,26.4,0.923,10.3,106,0.859,1.39,0.131,0.43,-0.243,0.566,0.197,Nor
+'Medial Tibia of Normal_21.jpg',0.391,0.215,0.545,28.1,0.893,10.6,113,1.07,1.76,0.177,0.52,-0.228,0.604,0.281,Nor
+'Medial Tibia of Normal_22.jpg',0.312,0.227,0.634,21.4,0.887,9.22,86.1,1.25,2.04,0.186,0.537,-0.292,0.708,0.346,Nor
+'Medial Tibia of Normal_23.jpg',0.66,0.127,0.463,23.9,0.937,9.77,95.9,0.668,1.09,0.111,0.38,-0.202,0.466,0.168,Nor
+'Medial Tibia of Normal_24.jpg',0.258,0.314,0.579,28.4,0.845,10.6,114,1.42,2.37,0.252,0.628,-0.218,0.664,0.285,Nor
+'Medial Tibia of Normal_25.jpg',0.607,0.148,0.457,23.6,0.926,9.71,94.7,0.736,1.21,0.127,0.419,-0.184,0.466,0.187,Nor
+'Medial Tibia of Normal_26.jpg',0.511,0.179,0.493,17.7,0.91,8.4,71,0.882,1.45,0.15,0.47,-0.201,0.526,0.223,Nor
+'Medial Tibia of Normal_27.jpg',0.367,0.223,0.516,28.8,0.889,10.7,116,1.02,1.69,0.183,0.53,-0.206,0.567,0.309,Nor
+'Medial Tibia of Normal_28.jpg',0.332,0.23,0.569,21.5,0.885,9.25,86.3,1.15,1.88,0.188,0.54,-0.246,0.64,0.33,Nor
+'Medial Tibia of Normal_29.jpg',0.34,0.22,0.557,19.6,0.89,8.83,78.8,1.08,1.77,0.18,0.526,-0.237,0.615,0.347,Nor
+'Medial Tibia of Normal_3.jpg',0.801,0.0865,0.314,16,0.957,8.01,64.3,0.463,0.754,0.0805,0.294,-0.126,0.31,0.0802,Nor
+'Medial Tibia of Normal_30.jpg',0.493,0.187,0.575,25.7,0.906,10.1,103,1.05,1.7,0.156,0.482,-0.262,0.633,0.174,Nor
+'Medial Tibia of Normal_31.jpg',0.363,0.202,0.575,21.3,0.899,9.22,85.8,1.03,1.68,0.167,0.504,-0.256,0.625,0.338,Nor
+'Medial Tibia of Normal_32.jpg',0.447,0.15,0.646,28.2,0.925,10.6,113,0.922,1.48,0.128,0.424,-0.337,0.671,0.297,Nor
+'Medial Tibia of Normal_33.jpg',0.538,0.161,0.518,23.1,0.92,9.61,92.8,0.826,1.35,0.136,0.441,-0.227,0.541,0.221,Nor
+'Medial Tibia of Normal_34.jpg',0.424,0.196,0.532,28.1,0.902,10.6,113,0.951,1.57,0.163,0.495,-0.224,0.572,0.278,Nor
+'Medial Tibia of Normal_35.jpg',0.474,0.176,0.549,18,0.912,8.48,72.5,0.926,1.51,0.148,0.466,-0.242,0.584,0.251,Nor
+'Medial Tibia of Normal_36.jpg',0.344,0.23,0.653,24.1,0.885,9.79,96.9,1.3,2.1,0.188,0.539,-0.313,0.736,0.221,Nor
+'Medial Tibia of Normal_37.jpg',0.438,0.196,0.517,22.3,0.902,9.44,89.7,0.934,1.54,0.163,0.495,-0.213,0.555,0.267,Nor
+'Medial Tibia of Normal_38.jpg',0.409,0.199,0.604,22.8,0.9,9.53,91.7,1.11,1.81,0.165,0.499,-0.281,0.668,0.258,Nor
+'Medial Tibia of Normal_39.jpg',0.682,0.0862,0.668,24.2,0.957,9.85,97.4,0.689,1.08,0.0803,0.294,-0.403,0.648,0.157,Nor
+'Medial Tibia of Normal_4.jpg',0.866,0.0482,0.456,36.4,0.976,12.1,146,0.309,0.494,0.0518,0.193,-0.232,0.349,0.104,Nor
+'Medial Tibia of Normal_40.jpg',0.612,0.128,0.545,23.5,0.936,9.69,94.4,0.731,1.18,0.112,0.383,-0.257,0.543,0.197,Nor
+'Medial Tibia of Normal_41.jpg',0.352,0.227,0.521,21.4,0.886,9.23,86,1.04,1.73,0.186,0.536,-0.208,0.575,0.322,Nor
+'Medial Tibia of Normal_42.jpg',0.455,0.174,0.597,14.3,0.913,7.53,57.5,0.993,1.61,0.146,0.462,-0.291,0.649,0.254,Nor
+'Medial Tibia of Normal_43.jpg',0.424,0.213,0.551,26.9,0.894,10.4,108,1.1,1.8,0.176,0.519,-0.233,0.614,0.233,Nor
+'Medial Tibia of Normal_44.jpg',0.596,0.118,0.634,26.4,0.941,10.3,106,0.806,1.28,0.104,0.362,-0.344,0.642,0.197,Nor
+'Medial Tibia of Normal_45.jpg',0.757,0.0935,0.421,24.2,0.953,9.85,97.2,0.507,0.825,0.0857,0.31,-0.181,0.39,0.137,Nor
+'Medial Tibia of Normal_46.jpg',0.345,0.193,0.651,21.2,0.903,9.18,85.2,1.15,1.86,0.16,0.491,-0.321,0.713,0.363,Nor
+'Medial Tibia of Normal_47.jpg',0.495,0.164,0.58,23,0.918,9.58,92.4,0.933,1.51,0.139,0.446,-0.273,0.616,0.238,Nor
+'Medial Tibia of Normal_48.jpg',0.595,0.161,0.456,24.1,0.92,9.81,96.7,0.817,1.34,0.136,0.441,-0.185,0.489,0.168,Nor
+'Medial Tibia of Normal_49.jpg',0.418,0.156,0.679,18.7,0.922,8.63,75.2,1.04,1.65,0.132,0.432,-0.363,0.721,0.31,Nor
+'Medial Tibia of Normal_5.jpg',0.542,0.16,0.53,26.8,0.92,10.3,108,0.859,1.4,0.135,0.439,-0.234,0.556,0.213,Nor
+'Medial Tibia of Normal_50.jpg',0.631,0.122,0.565,26.1,0.939,10.2,105,0.753,1.21,0.107,0.371,-0.279,0.569,0.179,Nor
+'Medial Tibia of Normal_51.jpg',0.725,0.1,0.492,24.3,0.95,9.87,97.7,0.597,0.962,0.091,0.326,-0.234,0.474,0.142,Nor
+'Medial Tibia of Normal_52.jpg',0.72,0.101,0.488,24.1,0.95,9.83,97,0.588,0.95,0.0911,0.326,-0.228,0.466,0.15,Nor
+'Medial Tibia of Normal_53.jpg',0.691,0.135,0.324,16.6,0.933,8.15,66.8,0.624,1.03,0.117,0.396,-0.11,0.337,0.135,Nor
+'Medial Tibia of Normal_54.jpg',0.475,0.165,0.576,33,0.917,11.5,132,0.897,1.46,0.14,0.448,-0.27,0.605,0.262,Nor
+'Medial Tibia of Normal_55.jpg',0.462,0.164,0.601,22.5,0.918,9.48,90.4,0.942,1.52,0.139,0.447,-0.289,0.634,0.268,Nor
+'Medial Tibia of Normal_56.jpg',0.756,0.0869,0.478,16.6,0.957,8.16,66.9,0.505,0.816,0.0808,0.295,-0.223,0.43,0.144,Nor
+'Medial Tibia of Normal_57.jpg',0.28,0.321,0.517,22.6,0.842,9.46,90.5,1.35,2.27,0.257,0.634,-0.179,0.6,0.26,Nor
+'Medial Tibia of Normal_58.jpg',0.415,0.211,0.623,24.6,0.895,9.9,98.8,1.2,1.94,0.174,0.515,-0.288,0.693,0.184,Nor
+'Medial Tibia of Normal_59.jpg',0.685,0.121,0.444,37,0.939,12.2,149,0.649,1.06,0.107,0.369,-0.189,0.445,0.154,Nor
+'Medial Tibia of Normal_6.jpg',0.532,0.167,0.574,25.1,0.916,10,101,0.976,1.58,0.141,0.452,-0.271,0.624,0.152,Nor
+'Medial Tibia of Normal_60.jpg',0.442,0.174,0.587,32.7,0.913,11.4,131,0.958,1.56,0.146,0.463,-0.275,0.626,0.277,Nor
+'Medial Tibia of Normal_61.jpg',0.672,0.0821,0.681,26.4,0.959,10.3,106,0.643,1.01,0.0772,0.284,-0.405,0.634,0.185,Nor
+'Medial Tibia of Normal_62.jpg',0.557,0.143,0.555,17.7,0.929,8.4,71.1,0.773,1.26,0.123,0.41,-0.26,0.559,0.224,Nor
+'Medial Tibia of Normal_63.jpg',0.744,0.0958,0.471,16.2,0.952,8.05,65.1,0.581,0.934,0.0875,0.316,-0.226,0.46,0.118,Nor
+'Medial Tibia of Normal_7.jpg',0.382,0.181,0.626,21.6,0.91,9.27,86.8,1.04,1.69,0.151,0.473,-0.305,0.674,0.335,Nor
+'Medial Tibia of Normal_8.jpg',0.512,0.162,0.59,26.7,0.919,10.3,107,0.954,1.54,0.137,0.443,-0.282,0.629,0.217,Nor
+'Medial Tibia of Normal_9.jpg',0.501,0.187,0.479,23,0.906,9.59,92.6,0.891,1.47,0.156,0.482,-0.195,0.522,0.223,Nor
+'Medial Tibia of OA_1.jpg',0.399,0.192,0.59,22.1,0.904,9.38,88.8,1.04,1.7,0.16,0.489,-0.272,0.643,0.296,OA
+'Medial Tibia of OA_10.jpg',0.902,0.0362,0.438,16,0.982,8.02,64.5,0.262,0.414,0.0428,0.156,-0.244,0.329,0.0734,OA
+'Medial Tibia of OA_11.jpg',0.306,0.261,0.494,12.3,0.869,6.96,49.2,1.13,1.89,0.212,0.575,-0.181,0.56,0.344,OA
+'Medial Tibia of OA_12.jpg',0.674,0.126,0.447,16.7,0.937,8.18,67.2,0.669,1.09,0.11,0.378,-0.188,0.45,0.157,OA
+'Medial Tibia of OA_13.jpg',0.819,0.0726,0.377,16.3,0.964,8.08,65.5,0.413,0.669,0.0701,0.26,-0.164,0.336,0.107,OA
+'Medial Tibia of OA_14.jpg',0.339,0.273,0.578,16.4,0.864,8.06,66,1.32,2.19,0.221,0.589,-0.231,0.659,0.186,OA
+'Medial Tibia of OA_15.jpg',0.389,0.184,0.612,28.6,0.908,10.7,115,1.04,1.68,0.154,0.478,-0.292,0.661,0.32,OA
+'Medial Tibia of OA_16.jpg',0.286,0.271,0.573,30.4,0.865,11,122,1.29,2.14,0.219,0.586,-0.228,0.65,0.341,OA
+'Medial Tibia of OA_17.jpg',0.374,0.167,0.734,7.88,0.917,5.53,31.7,1.21,1.91,0.141,0.451,-0.412,0.793,0.292,OA
+'Medial Tibia of OA_18.jpg',0.303,0.256,0.547,19.8,0.872,8.87,79.6,1.21,2,0.208,0.57,-0.216,0.62,0.344,OA
+'Medial Tibia of OA_19.jpg',0.344,0.242,0.525,21.8,0.879,9.31,87.4,1.13,1.88,0.197,0.554,-0.206,0.591,0.303,OA
+'Medial Tibia of OA_2.jpg',0.644,0.103,0.628,23.7,0.949,9.74,95.4,0.715,1.13,0.0926,0.331,-0.345,0.614,0.185,OA
+'Medial Tibia of OA_20.jpg',0.388,0.19,0.586,19,0.905,8.7,76.5,1,1.64,0.158,0.487,-0.269,0.632,0.319,OA
+'Medial Tibia of OA_21.jpg',0.296,0.339,0.433,10.9,0.831,6.54,43.6,1.28,2.19,0.27,0.644,-0.133,0.518,0.245,OA
+'Medial Tibia of OA_22.jpg',0.433,0.214,0.489,27.6,0.893,10.5,111,0.997,1.65,0.177,0.521,-0.188,0.539,0.25,OA
+'Medial Tibia of OA_23.jpg',0.603,0.14,0.503,23.5,0.93,9.69,94.3,0.74,1.21,0.121,0.405,-0.221,0.509,0.196,OA
+'Medial Tibia of OA_24.jpg',0.445,0.181,0.556,28,0.91,10.6,112,0.924,1.51,0.151,0.473,-0.248,0.59,0.274,OA
+'Medial Tibia of OA_25.jpg',0.317,0.209,0.691,31.4,0.896,11.2,126,1.3,2.08,0.172,0.513,-0.346,0.763,0.351,OA
+'Medial Tibia of OA_26.jpg',0.57,0.154,0.569,8.94,0.923,5.95,36,0.916,1.47,0.131,0.43,-0.272,0.609,0.148,OA
+'Medial Tibia of OA_27.jpg',0.405,0.134,0.722,6.93,0.933,5.21,27.9,0.976,1.54,0.116,0.393,-0.421,0.748,0.37,OA
+'Medial Tibia of OA_28.jpg',0.362,0.164,0.694,12.9,0.918,7.14,51.8,1.09,1.74,0.138,0.446,-0.376,0.744,0.39,OA
+'Medial Tibia of OA_29.jpg',0.613,0.103,0.659,10.1,0.948,6.33,40.5,0.741,1.17,0.0931,0.332,-0.374,0.646,0.205,OA
+'Medial Tibia of OA_3.jpg',0.383,0.196,0.573,31.9,0.902,11.3,128,1,1.64,0.163,0.495,-0.257,0.619,0.319,OA
+'Medial Tibia of OA_30.jpg',0.502,0.123,0.686,7.59,0.939,5.47,30.6,0.85,1.35,0.108,0.372,-0.388,0.691,0.272,OA
+'Medial Tibia of OA_31.jpg',0.429,0.183,0.637,27,0.909,10.4,108,1.11,1.78,0.153,0.476,-0.314,0.697,0.242,OA
+'Medial Tibia of OA_32.jpg',0.509,0.156,0.641,8.68,0.922,5.85,34.9,1.01,1.62,0.133,0.433,-0.334,0.691,0.184,OA
+'Medial Tibia of OA_33.jpg',0.587,0.161,0.477,25.9,0.919,10.2,104,0.841,1.37,0.137,0.442,-0.201,0.515,0.166,OA
+'Medial Tibia of OA_34.jpg',0.84,0.0504,0.556,24.4,0.975,9.9,98.2,0.371,0.586,0.0534,0.2,-0.314,0.443,0.115,OA
+'Medial Tibia of OA_35.jpg',0.551,0.135,0.628,8.18,0.932,5.69,32.9,0.882,1.41,0.117,0.396,-0.329,0.652,0.211,OA
+'Medial Tibia of OA_36.jpg',0.403,0.155,0.679,7.19,0.922,5.3,28.9,1.02,1.63,0.132,0.432,-0.366,0.721,0.333,OA
+'Medial Tibia of OA_37.jpg',0.63,0.0917,0.686,26.6,0.954,10.3,107,0.703,1.11,0.0844,0.306,-0.408,0.658,0.203,OA
+'Medial Tibia of OA_38.jpg',0.313,0.303,0.556,16.9,0.85,8.17,67.9,1.37,2.28,0.243,0.618,-0.206,0.639,0.199,OA
+'Medial Tibia of OA_39.jpg',0.351,0.173,0.692,6.73,0.914,5.11,27.1,1.14,1.82,0.145,0.46,-0.367,0.747,0.393,OA
+'Medial Tibia of OA_4.jpg',0.771,0.089,0.434,24.8,0.955,9.98,99.9,0.531,0.855,0.0824,0.3,-0.203,0.419,0.0996,OA
+'Medial Tibia of OA_40.jpg',0.624,0.0938,0.679,8.04,0.953,5.65,32.4,0.692,1.09,0.0859,0.311,-0.395,0.645,0.209,OA
+'Medial Tibia of OA_41.jpg',0.729,0.099,0.476,16.6,0.95,8.15,66.7,0.575,0.929,0.0899,0.323,-0.223,0.456,0.145,OA
+'Medial Tibia of OA_42.jpg',0.488,0.166,0.597,23.2,0.917,9.62,93.2,0.973,1.57,0.14,0.45,-0.287,0.64,0.232,OA
+'Medial Tibia of OA_43.jpg',0.464,0.183,0.537,22.6,0.909,9.49,90.7,0.928,1.52,0.153,0.476,-0.231,0.573,0.255,OA
+'Medial Tibia of OA_44.jpg',0.383,0.256,0.521,24,0.872,9.77,96.2,1.2,1.99,0.208,0.57,-0.198,0.595,0.206,OA
+'Medial Tibia of OA_45.jpg',0.394,0.17,0.655,19.1,0.915,8.7,76.6,1.05,1.69,0.143,0.456,-0.333,0.701,0.327,OA
+'Medial Tibia of OA_46.jpg',0.736,0.0685,0.659,15.1,0.966,7.78,60.8,0.528,0.83,0.067,0.25,-0.392,0.577,0.163,OA
+'Medial Tibia of OA_47.jpg',0.76,0.0741,0.579,9.46,0.963,6.15,38.1,0.519,0.823,0.0712,0.264,-0.325,0.523,0.143,OA
+'Medial Tibia of OA_48.jpg',0.417,0.174,0.69,17.3,0.913,8.29,69.7,1.17,1.86,0.146,0.462,-0.365,0.751,0.231,OA
+'Medial Tibia of OA_49.jpg',0.554,0.198,0.359,15,0.901,7.74,60.4,0.843,1.42,0.164,0.498,-0.113,0.395,0.174,OA
+'Medial Tibia of OA_5.jpg',0.636,0.134,0.508,15.5,0.933,7.88,62.5,0.769,1.24,0.116,0.395,-0.239,0.535,0.151,OA
+'Medial Tibia of OA_50.jpg',0.523,0.161,0.543,38.4,0.919,12.4,154,0.869,1.41,0.137,0.442,-0.243,0.569,0.228,OA
+'Medial Tibia of OA_51.jpg',0.907,0.0421,0.213,35.9,0.979,12,144,0.241,0.389,0.0472,0.174,-0.0823,0.181,0.0534,OA
+'Medial Tibia of OA_52.jpg',0.657,0.112,0.551,34.4,0.944,11.7,138,0.674,1.08,0.0997,0.351,-0.271,0.536,0.181,OA
+'Medial Tibia of OA_53.jpg',0.541,0.212,0.356,24.2,0.895,9.85,97.4,0.899,1.51,0.174,0.517,-0.115,0.411,0.147,OA
+'Medial Tibia of OA_54.jpg',0.855,0.0572,0.383,35.5,0.971,11.9,143,0.348,0.56,0.0585,0.219,-0.18,0.324,0.0935,OA
+'Medial Tibia of OA_55.jpg',0.665,0.126,0.471,24.1,0.937,9.82,96.8,0.69,1.12,0.11,0.378,-0.208,0.479,0.159,OA
+'Medial Tibia of OA_56.jpg',0.729,0.105,0.453,25.1,0.948,10,101,0.608,0.982,0.0943,0.336,-0.217,0.462,0.107,OA
+'Medial Tibia of OA_57.jpg',0.623,0.144,0.443,17.1,0.928,8.28,68.9,0.704,1.16,0.123,0.412,-0.176,0.448,0.183,OA
+'Medial Tibia of OA_58.jpg',0.286,0.31,0.385,20.5,0.845,9.03,82.3,1.11,1.91,0.248,0.619,-0.109,0.445,0.308,OA
+'Medial Tibia of OA_59.jpg',0.36,0.268,0.517,23.5,0.867,9.67,94.3,1.22,2.04,0.217,0.585,-0.191,0.592,0.227,OA
+'Medial Tibia of OA_6.jpg',0.318,0.217,0.634,20.1,0.892,8.94,80.9,1.22,1.97,0.178,0.523,-0.298,0.706,0.372,OA
+'Medial Tibia of OA_60.jpg',0.445,0.164,0.609,28.1,0.918,10.6,113,0.925,1.5,0.138,0.446,-0.297,0.638,0.288,OA
+'Medial Tibia of OA_61.jpg',0.669,0.124,0.458,23.9,0.938,9.78,96.1,0.656,1.07,0.109,0.375,-0.197,0.457,0.165,OA
+'Medial Tibia of OA_62.jpg',0.496,0.163,0.598,23.3,0.919,9.64,93.5,0.964,1.55,0.138,0.444,-0.289,0.639,0.229,OA
+'Medial Tibia of OA_63.jpg',0.384,0.231,0.507,22.3,0.885,9.43,89.6,1.08,1.78,0.189,0.54,-0.197,0.567,0.273,OA
+'Medial Tibia of OA_64.jpg',0.335,0.208,0.587,20.3,0.896,8.99,81.7,1.07,1.75,0.171,0.511,-0.264,0.642,0.382,OA
+'Medial Tibia of OA_65.jpg',0.617,0.14,0.529,9.35,0.93,6.1,37.6,0.814,1.31,0.12,0.404,-0.25,0.559,0.151,OA
+'Medial Tibia of OA_66.jpg',0.344,0.232,0.549,21.5,0.884,9.25,86.4,1.13,1.86,0.19,0.542,-0.225,0.613,0.316,OA
+'Medial Tibia of OA_67.jpg',0.326,0.199,0.667,12.6,0.901,7.05,50.7,1.19,1.92,0.165,0.499,-0.333,0.731,0.383,OA
+'Medial Tibia of OA_68.jpg',0.481,0.127,0.695,22.3,0.937,9.43,89.7,0.9,1.42,0.111,0.38,-0.393,0.708,0.284,OA
+'Medial Tibia of OA_7.jpg',0.795,0.0718,0.493,25.5,0.964,10.1,103,0.458,0.733,0.0695,0.258,-0.251,0.435,0.126,OA
+'Medial Tibia of OA_8.jpg',0.859,0.0564,0.38,24.7,0.972,9.97,99.5,0.35,0.562,0.058,0.217,-0.188,0.331,0.0805,OA
+'Medial Tibia of OA_9.jpg',0.3,0.27,0.682,18.9,0.866,8.64,76,1.4,2.3,0.218,0.585,-0.288,0.734,0.271,OA

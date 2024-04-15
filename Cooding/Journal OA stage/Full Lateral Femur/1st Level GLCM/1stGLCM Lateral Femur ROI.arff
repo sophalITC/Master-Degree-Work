@@ -1,0 +1,142 @@
+@relation '1stGLCM Lateral Femur ROI '
+
+@attribute File {'Lateral Femur of G1_1.jpg','Lateral Femur of G1_10.jpg','Lateral Femur of G1_11.jpg','Lateral Femur of G1_12.jpg','Lateral Femur of G1_13.jpg','Lateral Femur of G1_14.jpg','Lateral Femur of G1_15.jpg','Lateral Femur of G1_16.jpg','Lateral Femur of G1_17.jpg','Lateral Femur of G1_18.jpg','Lateral Femur of G1_2.jpg','Lateral Femur of G1_3.jpg','Lateral Femur of G1_4.jpg','Lateral Femur of G1_5.jpg','Lateral Femur of G1_6.jpg','Lateral Femur of G1_7.jpg','Lateral Femur of G1_8.jpg','Lateral Femur of G1_9.jpg','Lateral Femur of G2_1.jpg','Lateral Femur of G2_10.jpg','Lateral Femur of G2_11.jpg','Lateral Femur of G2_12.jpg','Lateral Femur of G2_13.jpg','Lateral Femur of G2_14.jpg','Lateral Femur of G2_15.jpg','Lateral Femur of G2_16.jpg','Lateral Femur of G2_17.jpg','Lateral Femur of G2_18.jpg','Lateral Femur of G2_19.jpg','Lateral Femur of G2_2.jpg','Lateral Femur of G2_20.jpg','Lateral Femur of G2_21.jpg','Lateral Femur of G2_3.jpg','Lateral Femur of G2_4.jpg','Lateral Femur of G2_5.jpg','Lateral Femur of G2_6.jpg','Lateral Femur of G2_7.jpg','Lateral Femur of G2_8.jpg','Lateral Femur of G2_9.jpg','Lateral Femur of G3_1.jpg','Lateral Femur of G3_10.jpg','Lateral Femur of G3_11.jpg','Lateral Femur of G3_12.jpg','Lateral Femur of G3_13.jpg','Lateral Femur of G3_14.jpg','Lateral Femur of G3_15.jpg','Lateral Femur of G3_16.jpg','Lateral Femur of G3_17.jpg','Lateral Femur of G3_18.jpg','Lateral Femur of G3_19.jpg','Lateral Femur of G3_2.jpg','Lateral Femur of G3_20.jpg','Lateral Femur of G3_21.jpg','Lateral Femur of G3_22.jpg','Lateral Femur of G3_23.jpg','Lateral Femur of G3_24.jpg','Lateral Femur of G3_25.jpg','Lateral Femur of G3_26.jpg','Lateral Femur of G3_27.jpg','Lateral Femur of G3_28.jpg','Lateral Femur of G3_29.jpg','Lateral Femur of G3_3.jpg','Lateral Femur of G3_30.jpg','Lateral Femur of G3_31.jpg','Lateral Femur of G3_32.jpg','Lateral Femur of G3_33.jpg','Lateral Femur of G3_34.jpg','Lateral Femur of G3_35.jpg','Lateral Femur of G3_36.jpg','Lateral Femur of G3_37.jpg','Lateral Femur of G3_38.jpg','Lateral Femur of G3_39.jpg','Lateral Femur of G3_4.jpg','Lateral Femur of G3_40.jpg','Lateral Femur of G3_41.jpg','Lateral Femur of G3_42.jpg','Lateral Femur of G3_43.jpg','Lateral Femur of G3_44.jpg','Lateral Femur of G3_5.jpg','Lateral Femur of G3_6.jpg','Lateral Femur of G3_7.jpg','Lateral Femur of G3_8.jpg','Lateral Femur of G3_9.jpg','Lateral Femur of G4_1.jpg','Lateral Femur of G4_2.jpg','Lateral Femur of G4_3.jpg','Lateral Femur of G4_4.jpg','Lateral Femur of G4_5.jpg','Lateral Femur of G4_6.jpg','Lateral Femur of G4_7.jpg','Lateral Femur of G4_8.jpg','Lateral Femur of Nor_1.jpg','Lateral Femur of Nor_10.jpg','Lateral Femur of Nor_11.jpg','Lateral Femur of Nor_12.jpg','Lateral Femur of Nor_13.jpg','Lateral Femur of Nor_14.jpg','Lateral Femur of Nor_15.jpg','Lateral Femur of Nor_16.jpg','Lateral Femur of Nor_17.jpg','Lateral Femur of Nor_18.jpg','Lateral Femur of Nor_19.jpg','Lateral Femur of Nor_2.jpg','Lateral Femur of Nor_20.jpg','Lateral Femur of Nor_21.jpg','Lateral Femur of Nor_22.jpg','Lateral Femur of Nor_23.jpg','Lateral Femur of Nor_24.jpg','Lateral Femur of Nor_25.jpg','Lateral Femur of Nor_26.jpg','Lateral Femur of Nor_27.jpg','Lateral Femur of Nor_28.jpg','Lateral Femur of Nor_29.jpg','Lateral Femur of Nor_3.jpg','Lateral Femur of Nor_30.jpg','Lateral Femur of Nor_31.jpg','Lateral Femur of Nor_32.jpg','Lateral Femur of Nor_33.jpg','Lateral Femur of Nor_34.jpg','Lateral Femur of Nor_35.jpg','Lateral Femur of Nor_36.jpg','Lateral Femur of Nor_37.jpg','Lateral Femur of Nor_38.jpg','Lateral Femur of Nor_39.jpg','Lateral Femur of Nor_4.jpg','Lateral Femur of Nor_5.jpg','Lateral Femur of Nor_6.jpg','Lateral Femur of Nor_7.jpg','Lateral Femur of Nor_8.jpg','Lateral Femur of Nor_9.jpg'}
+@attribute Mean1 numeric
+@attribute Variance2 numeric
+@attribute Skewness3 numeric
+@attribute Kurtosis4 numeric
+@attribute Energy5 numeric
+@attribute Entropy6 numeric
+@attribute class {'Grade 1','Grade 2','Grade 3','Grade 4',Normal}
+
+@data
+'Lateral Femur of G1_1.jpg',5.51,1.49,-0.235,2.99,0.233,1.61,'Grade 1'
+'Lateral Femur of G1_10.jpg',5.26,1.08,0.0506,2.93,0.27,1.46,'Grade 1'
+'Lateral Femur of G1_11.jpg',6.16,0.991,-0.475,3.53,0.291,1.4,'Grade 1'
+'Lateral Femur of G1_12.jpg',5.25,1.45,-0.0524,2.83,0.232,1.6,'Grade 1'
+'Lateral Femur of G1_13.jpg',5.63,1.27,-0.321,3.39,0.257,1.53,'Grade 1'
+'Lateral Femur of G1_14.jpg',5.7,1.83,-0.549,2.83,0.217,1.67,'Grade 1'
+'Lateral Femur of G1_15.jpg',6.54,1.12,-0.705,3.84,0.282,1.44,'Grade 1'
+'Lateral Femur of G1_16.jpg',5.63,1.42,-0.226,3.13,0.241,1.59,'Grade 1'
+'Lateral Femur of G1_17.jpg',5.7,1.81,-0.394,2.7,0.209,1.69,'Grade 1'
+'Lateral Femur of G1_18.jpg',5.63,1.31,-0.427,3.19,0.251,1.53,'Grade 1'
+'Lateral Femur of G1_2.jpg',6.28,0.993,-0.703,3.59,0.304,1.37,'Grade 1'
+'Lateral Femur of G1_3.jpg',6.75,1.25,-1.09,4.49,0.299,1.43,'Grade 1'
+'Lateral Femur of G1_4.jpg',6.32,1.26,-0.672,3.59,0.265,1.5,'Grade 1'
+'Lateral Femur of G1_5.jpg',5.72,1.62,-0.627,3.04,0.233,1.61,'Grade 1'
+'Lateral Femur of G1_6.jpg',6.23,1.47,-0.524,2.99,0.237,1.58,'Grade 1'
+'Lateral Femur of G1_7.jpg',5.92,1.09,-0.631,3.85,0.281,1.43,'Grade 1'
+'Lateral Femur of G1_8.jpg',5.94,1.2,-0.705,3.65,0.273,1.47,'Grade 1'
+'Lateral Femur of G1_9.jpg',4.86,1.41,-0.287,2.95,0.242,1.58,'Grade 1'
+'Lateral Femur of G2_1.jpg',5.41,1.53,-0.453,2.75,0.231,1.6,'Grade 2'
+'Lateral Femur of G2_10.jpg',4.8,1.09,-0.163,2.74,0.265,1.46,'Grade 2'
+'Lateral Femur of G2_11.jpg',5.19,1.21,-0.147,3.13,0.26,1.51,'Grade 2'
+'Lateral Femur of G2_12.jpg',6.04,1.28,-0.72,3.67,0.269,1.5,'Grade 2'
+'Lateral Femur of G2_13.jpg',5.31,1.4,-0.102,2.79,0.236,1.58,'Grade 2'
+'Lateral Femur of G2_14.jpg',6.28,0.886,-0.671,3.84,0.319,1.32,'Grade 2'
+'Lateral Femur of G2_15.jpg',5.85,1.92,-0.599,2.94,0.213,1.69,'Grade 2'
+'Lateral Femur of G2_16.jpg',6.55,1.15,-0.873,4.03,0.293,1.42,'Grade 2'
+'Lateral Femur of G2_17.jpg',5.6,1.35,-0.304,2.96,0.243,1.56,'Grade 2'
+'Lateral Femur of G2_18.jpg',5.81,1.4,-0.471,3.05,0.245,1.56,'Grade 2'
+'Lateral Femur of G2_19.jpg',6.08,1.1,-0.713,3.9,0.293,1.43,'Grade 2'
+'Lateral Femur of G2_2.jpg',5.59,1.03,-0.593,3.59,0.29,1.41,'Grade 2'
+'Lateral Femur of G2_20.jpg',5.24,1.58,-0.235,2.82,0.222,1.64,'Grade 2'
+'Lateral Femur of G2_21.jpg',5.57,1.55,-0.262,2.72,0.224,1.63,'Grade 2'
+'Lateral Femur of G2_3.jpg',5.69,1.04,-0.382,3.24,0.28,1.43,'Grade 2'
+'Lateral Femur of G2_4.jpg',5.64,1.77,-0.327,2.57,0.21,1.68,'Grade 2'
+'Lateral Femur of G2_5.jpg',4.96,1.22,-0.151,3.43,0.267,1.51,'Grade 2'
+'Lateral Femur of G2_6.jpg',4.61,0.889,-0.161,2.75,0.294,1.35,'Grade 2'
+'Lateral Femur of G2_7.jpg',6.01,1.56,-0.882,3.96,0.256,1.57,'Grade 2'
+'Lateral Femur of G2_8.jpg',4.77,1.2,-0.0185,2.85,0.254,1.51,'Grade 2'
+'Lateral Femur of G2_9.jpg',6.27,1.63,-0.766,3.37,0.244,1.59,'Grade 2'
+'Lateral Femur of G3_1.jpg',6.04,1.9,-0.479,2.69,0.209,1.7,'Grade 3'
+'Lateral Femur of G3_10.jpg',6.3,1.99,-0.645,2.74,0.211,1.68,'Grade 3'
+'Lateral Femur of G3_11.jpg',5.3,1.11,0.0735,3.12,0.271,1.47,'Grade 3'
+'Lateral Femur of G3_12.jpg',5.31,1.27,-0.0197,2.89,0.248,1.54,'Grade 3'
+'Lateral Femur of G3_13.jpg',4.42,1.26,0.265,2.99,0.252,1.53,'Grade 3'
+'Lateral Femur of G3_14.jpg',5.02,1.59,0.136,2.72,0.22,1.65,'Grade 3'
+'Lateral Femur of G3_15.jpg',5.18,1.53,-0.109,2.95,0.228,1.63,'Grade 3'
+'Lateral Femur of G3_16.jpg',4.94,1.04,0.295,3.27,0.282,1.43,'Grade 3'
+'Lateral Femur of G3_17.jpg',5.6,1.74,-0.348,2.62,0.212,1.67,'Grade 3'
+'Lateral Femur of G3_18.jpg',4.86,1.25,0.0252,3.03,0.252,1.53,'Grade 3'
+'Lateral Femur of G3_19.jpg',4.94,1.26,0.0569,2.84,0.249,1.53,'Grade 3'
+'Lateral Femur of G3_2.jpg',5.46,1.2,-0.347,3.4,0.266,1.5,'Grade 3'
+'Lateral Femur of G3_20.jpg',5.56,0.989,-0.209,3.53,0.292,1.41,'Grade 3'
+'Lateral Femur of G3_21.jpg',5.6,1.56,-0.315,3.07,0.228,1.63,'Grade 3'
+'Lateral Femur of G3_22.jpg',4.97,1.32,0.0481,2.81,0.243,1.55,'Grade 3'
+'Lateral Femur of G3_23.jpg',6.13,0.963,-0.457,3.7,0.301,1.38,'Grade 3'
+'Lateral Femur of G3_24.jpg',5.3,1.08,-0.272,3.55,0.281,1.45,'Grade 3'
+'Lateral Femur of G3_25.jpg',5.12,1.34,-0.125,2.95,0.242,1.56,'Grade 3'
+'Lateral Femur of G3_26.jpg',4.7,1.13,-0.0977,3.16,0.269,1.48,'Grade 3'
+'Lateral Femur of G3_27.jpg',5.8,1.31,-0.477,3.45,0.254,1.53,'Grade 3'
+'Lateral Femur of G3_28.jpg',4.97,1.4,0.157,2.85,0.236,1.58,'Grade 3'
+'Lateral Femur of G3_29.jpg',5.52,1.17,-0.351,3.08,0.264,1.49,'Grade 3'
+'Lateral Femur of G3_3.jpg',6.43,0.98,-0.469,3.41,0.293,1.39,'Grade 3'
+'Lateral Femur of G3_30.jpg',4.94,1.62,0.148,2.82,0.219,1.66,'Grade 3'
+'Lateral Femur of G3_31.jpg',5.32,1.25,-0.14,3.21,0.256,1.53,'Grade 3'
+'Lateral Femur of G3_32.jpg',5.39,1.21,-0.252,3.16,0.262,1.5,'Grade 3'
+'Lateral Femur of G3_33.jpg',5.17,2.13,0.0876,2.48,0.19,1.77,'Grade 3'
+'Lateral Femur of G3_34.jpg',5.81,1.1,-0.287,3.3,0.275,1.46,'Grade 3'
+'Lateral Femur of G3_35.jpg',5.01,0.768,-0.343,3.75,0.34,1.27,'Grade 3'
+'Lateral Femur of G3_36.jpg',4.72,1.3,-0.0379,2.98,0.249,1.55,'Grade 3'
+'Lateral Femur of G3_37.jpg',5.71,1.51,-0.436,3.1,0.235,1.61,'Grade 3'
+'Lateral Femur of G3_38.jpg',4.51,0.985,0.0931,3.06,0.286,1.41,'Grade 3'
+'Lateral Femur of G3_39.jpg',4.93,1.47,0.0322,2.96,0.234,1.61,'Grade 3'
+'Lateral Femur of G3_4.jpg',5.67,1.64,-0.258,2.79,0.218,1.66,'Grade 3'
+'Lateral Femur of G3_40.jpg',4.99,1.49,0.131,2.86,0.229,1.62,'Grade 3'
+'Lateral Femur of G3_41.jpg',5.77,1.05,-0.26,3.35,0.285,1.43,'Grade 3'
+'Lateral Femur of G3_42.jpg',5.43,0.99,-0.36,3.36,0.29,1.4,'Grade 3'
+'Lateral Femur of G3_43.jpg',5.93,1.2,-0.417,3.25,0.262,1.5,'Grade 3'
+'Lateral Femur of G3_44.jpg',5.55,1.74,-0.348,2.79,0.215,1.68,'Grade 3'
+'Lateral Femur of G3_5.jpg',5.48,1.42,0.0483,2.93,0.239,1.59,'Grade 3'
+'Lateral Femur of G3_6.jpg',5.74,1.58,-0.277,2.81,0.222,1.63,'Grade 3'
+'Lateral Femur of G3_7.jpg',5.72,0.974,-0.0953,3.16,0.288,1.4,'Grade 3'
+'Lateral Femur of G3_8.jpg',5.47,1.32,-0.323,3.11,0.25,1.55,'Grade 3'
+'Lateral Femur of G3_9.jpg',5.33,1.68,-0.285,2.58,0.217,1.66,'Grade 3'
+'Lateral Femur of G4_1.jpg',5.94,1.46,-0.638,3.34,0.253,1.56,'Grade 4'
+'Lateral Femur of G4_2.jpg',5.73,1.07,-0.437,3.48,0.285,1.44,'Grade 4'
+'Lateral Femur of G4_3.jpg',5.14,1.18,-0.175,3.25,0.264,1.5,'Grade 4'
+'Lateral Femur of G4_4.jpg',5.41,1.24,-0.221,3.03,0.254,1.52,'Grade 4'
+'Lateral Femur of G4_5.jpg',5.25,1.37,-0.129,2.79,0.238,1.57,'Grade 4'
+'Lateral Femur of G4_6.jpg',4.88,1.32,-0.00285,3.09,0.248,1.55,'Grade 4'
+'Lateral Femur of G4_7.jpg',5.37,1.48,-0.296,2.89,0.23,1.6,'Grade 4'
+'Lateral Femur of G4_8.jpg',5.18,1.03,0.0533,2.99,0.28,1.43,'Grade 4'
+'Lateral Femur of Nor_1.jpg',5.87,1.13,-0.413,3.52,0.279,1.46,Normal
+'Lateral Femur of Nor_10.jpg',6.37,1.15,-0.759,4.07,0.284,1.45,Normal
+'Lateral Femur of Nor_11.jpg',5.75,1.2,-0.242,2.92,0.256,1.5,Normal
+'Lateral Femur of Nor_12.jpg',5.44,1.17,-0.137,3.04,0.263,1.49,Normal
+'Lateral Femur of Nor_13.jpg',5.65,1.06,-0.149,3.36,0.28,1.45,Normal
+'Lateral Femur of Nor_14.jpg',6.25,1.59,-0.918,3.79,0.258,1.56,Normal
+'Lateral Femur of Nor_15.jpg',5.78,1.52,-0.457,2.99,0.234,1.61,Normal
+'Lateral Femur of Nor_16.jpg',6.01,1.34,-0.957,4.19,0.279,1.48,Normal
+'Lateral Femur of Nor_17.jpg',6.33,1.61,-0.718,3.3,0.237,1.6,Normal
+'Lateral Femur of Nor_18.jpg',6.11,1.24,-0.906,4.25,0.282,1.46,Normal
+'Lateral Femur of Nor_19.jpg',5.39,1.13,-0.0676,3.19,0.272,1.48,Normal
+'Lateral Femur of Nor_2.jpg',6.04,1.32,-0.544,3.38,0.257,1.53,Normal
+'Lateral Femur of Nor_20.jpg',5.51,1.06,-0.267,3.05,0.278,1.44,Normal
+'Lateral Femur of Nor_21.jpg',6.08,1.14,-0.77,3.84,0.287,1.43,Normal
+'Lateral Femur of Nor_22.jpg',5.92,1.65,-0.439,2.79,0.223,1.64,Normal
+'Lateral Femur of Nor_23.jpg',5.24,1.28,-0.125,3.06,0.251,1.54,Normal
+'Lateral Femur of Nor_24.jpg',5.93,0.811,-0.138,3.21,0.315,1.31,Normal
+'Lateral Femur of Nor_25.jpg',6.2,1.93,-0.897,3.49,0.232,1.65,Normal
+'Lateral Femur of Nor_26.jpg',6.43,1.08,-0.992,4.51,0.318,1.37,Normal
+'Lateral Femur of Nor_27.jpg',5.32,1.26,-0.326,2.95,0.253,1.52,Normal
+'Lateral Femur of Nor_28.jpg',5.74,1.48,-0.544,3.58,0.251,1.59,Normal
+'Lateral Femur of Nor_29.jpg',5.45,1.25,-0.0896,2.95,0.253,1.53,Normal
+'Lateral Femur of Nor_3.jpg',6.14,1.44,-0.703,3.47,0.254,1.55,Normal
+'Lateral Femur of Nor_30.jpg',5.91,1.17,-0.538,3.38,0.27,1.47,Normal
+'Lateral Femur of Nor_31.jpg',5.31,1.31,-0.154,3.12,0.25,1.55,Normal
+'Lateral Femur of Nor_32.jpg',5.16,1.29,-0.0678,3.1,0.251,1.55,Normal
+'Lateral Femur of Nor_33.jpg',5.56,1.37,-0.4,3.03,0.244,1.56,Normal
+'Lateral Femur of Nor_34.jpg',4.81,1.2,-0.195,2.84,0.255,1.5,Normal
+'Lateral Femur of Nor_35.jpg',5.79,1.02,-0.315,3.47,0.284,1.42,Normal
+'Lateral Femur of Nor_36.jpg',6.77,0.93,-1.09,5.88,0.332,1.31,Normal
+'Lateral Femur of Nor_37.jpg',5.75,1.2,-0.627,3.32,0.274,1.47,Normal
+'Lateral Femur of Nor_38.jpg',6.1,1.46,-0.813,3.65,0.258,1.54,Normal
+'Lateral Femur of Nor_39.jpg',6.26,1.46,-0.698,3.35,0.249,1.55,Normal
+'Lateral Femur of Nor_4.jpg',5.47,1.45,-0.342,2.89,0.235,1.59,Normal
+'Lateral Femur of Nor_5.jpg',5.46,1.28,-0.242,2.95,0.249,1.54,Normal
+'Lateral Femur of Nor_6.jpg',5.95,1.63,-0.731,3.26,0.24,1.6,Normal
+'Lateral Femur of Nor_7.jpg',6.4,1.08,-0.601,3.71,0.285,1.43,Normal
+'Lateral Femur of Nor_8.jpg',6.57,1.24,-0.823,3.65,0.281,1.46,Normal
+'Lateral Femur of Nor_9.jpg',5.71,0.741,-0.518,3.7,0.346,1.25,Normal

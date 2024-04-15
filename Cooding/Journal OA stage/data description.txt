@@ -1,0 +1,7 @@
+there are 5 data:
+
+Grade 1: 18 images
+Grade 2: 21 images 
+Grade 3: 44 images
+Grade 4: 8 images 
+Normal : 39 images

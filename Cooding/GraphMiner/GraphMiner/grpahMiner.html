@@ -1,0 +1,245 @@
+<HTML>
+<HEAD>
+<TITLE>The LUCS-KDD Graph Mining Software</TITLE>
+</HEAD><BODY BGCOLOR="white">
+<CENTER><TABLE BORDER = 0 cellpadding = 10 WIDTH="100%">
+<TR><TD BGCOLOR = BB0000>
+<CENTER><TABLE BORDER = 0 cellpadding = 10 WIDTH="90%">
+<TR><TD BGCOLOR = 006699>
+<FONT COLOR = "white">
+<CENTER>
+<H1>THE LUCS-KDD GRAPH MINING SOFTWARE</H1>
+<HR WIDTH=<50%">
+<BR></CENTER>
+<TABLE ALIGN=right BGCOLOR="white" BORDER=1 CELLPADDING=5>
+<TR><TD>
+<img src="../../../GifFolder/logo115.gif"
+	alt="Liverpool University">
+</TD></TABLE>
+<P><B><I>Frans Coenen<I></B></P>
+<P><B>Department of Computer Science</B></P>
+<P><B>The University of Liverpool</B></P>
+<P>20 January 2009</P>
+<!P>Revisions:</P>
+</FONT></TD>
+</TABLE></CENTER>
+</TD></TABLE>
+</CENTER>
+<BR>
+<h2>CONTENTS</h2>
+<table BORDER=0 CELLPADDING=0 WIDTH=100%>
+
+<tr><td WIDTH="48%">
+<dl>
+<dt>1. <a HREF = "#introduction">Introduction</a>.</dt>
+<dt>2. <a HREF = "#downloading">Downloading the software</a>.</dt>
+<dl>
+<dt>2.1. <a HREF = "#compiling">Compiling</A>.</dt>
+<dt>2.2. <a HREF = "#documentation">Documentation</A>.</dt>
+</DL>
+</dl>
+</td><td><pre> </pre></td><td>
+<dl>
+<dt>3. <a HREF = "#running">Running the software</a>.</dt>
+<dt>4. <a HREF = "#detail">Algorithm description</a>.</dt>
+<dt>5. <a HREF = "#output">Conclusions</a>.</dt>
+</dl>
+</td></table><br><hr><br>
+
+<a NAME = "introduction">
+<table BORDER-=0 WIDTH="100%" CELLPADDING=5 BGCOLOR="006699">
+<tr><td><h2><font color =" white">1. INTRODUCTION</font></h2></td>
+</table><BR>
+
+<P>The code described here is directed at frequent sub graph mining, i.e. the
+identification of frequent sub-graphs within a collection of graphs as opposed
+to one large graph (sometimes referred to as <I>transaction graph mining</I>).
+The input graphs are assumed to include directed edges and may include cycles,
+however it is assumed that no nodes are not "self referenced".</P>
+
+<P>Two algorithms are included:</P>
+
+<OL>
+<LI><B>FSG Growth</B>. A graph mining algorithm that generates a Frequent Sub-
+Graph (FSG) Tree which, on completion, holds the complete set of frequent sub-
+graphs. The nature of the tree structure (essentially a set enumeration tree
+type structure) allows the incorporation of various mechanisms to reduce and/or
+control the growth of the search space.
+<LI><B>Gspan</B>. An implementation (for comparison) of the well know gSpan
+algorithm which uses Right Most Extension (RME) to grow candidate sets. The
+implementation also makes use of the FSG tree storage structure but only as a
+efficient mechanism in which to store the generated candidate graphs (and
+eventual frequent sub-graphs).
+</OL>
+
+<br><hr><br>
+<a NAME ="downloading">
+<table BORDER-=0 WIDTH="100%" CELLPADDING=5 BGCOLOR="006699">
+<tr><td><h2><font color =" white">2. DOWNLOADING THE SOFTWARE</font></h2></td>
+</table><BR>
+
+<P>The graph mining software comprises thirteen source files. These are provided
+from this WWW page together with two application classes. The source files are
+as follows:</P>
+
+<OL>
+<LI><A HREF = "DFScode.java"><TT>DFScode.java</TT></A>:
+Depth First Search (DFS) Code data structure. Code comprises unique start
+and end vertex/node numbers (the vertex numbers are allocated in a depth first
+search manner), vertex/node labels and the edge label. The last three are
+collectively referred to as the "DFS code label".
+<LI><A HREF = "DFScodeLabel.java"><TT>DFScodeLabel.java</TT></A>:
+Depth First Search (DFS) Code labels data structure. The label comprises
+start and end vertices, and an edge. The vertices and edge are stored
+according to their ID numbers. ID numbers can be converted to labels by using
+the vertex and edge trees as appropriate.
+<LI><A HREF = "EdgeTree.java"><TT>EdgeTree.java</TT></A>:
+Binary Tree structure in which to store edge information.
+Each node is an instance of the class <TT>EdgeTreeNode</TT>.
+Generated from input data. Tree allows fast look up to access values such as
+edge support (the number of occasionsoccasion that an edge appears in the transaction
+graph set, one count per graph).
+<LI><A HREF = "EdgeTreeNode.java"><TT>EdgeTreeNode.java</TT></A>:
+Binary tree node to hold graph edge details.
+<LI><A HREF = "FreqSubGraphNode.java"><TT>FreqSubGraphNode.java</TT></A>:
+Tree node structure in which to store Frequent Sub Graphs (FSGs). Node
+represents an edge encoded using a Depth First Search (DFS) code, i.e. start
+and end node ID numbers, start and end node label identifiers and an edge
+label identifier. Note that initially the tree will include candidate frequent
+sub graphs that turn out not to be frequent.
+<LI><A HREF = "GraphDFScode.java"><TT>GraphDFScode.java</TT></A>:
+Data structure to hold an input graph represented in DFS code format. Input
+is initially in the form of GrpahML, this is read in and stored in a pseudo
+GraphML format (using the classes <TT>Graph</TT> and <TT>GraphEdge</TT>) and
+then converted into Depth First Search (DFS) code format (which uses the
+<TT>DFScode</TT> and <TT>DFScodeLabel</TT> classes).
+<LI><A HREF = "Graph.java"><TT>Graph.java</TT></A>:
+Data structure to hold graph represente in <I>GraphML</I> format (used during
+initial graph input). Includes array of instances of the class
+<TT>GraphEdge</TT>.
+<LI><A HREF = "GraphEdge.java"><TT>GraphEdge.java</TT></A>:
+Data structure to hold a single graph edge. Instances of this class are
+included in the <TT>Graph</TT> data structure used to store a GrpahML
+represented input graph.
+<LI><A HREF = "GraphMiner.java"><TT>GraphMiner.java</TT></A>:
+Implantation of graph mining algorithm using Frequent Sub Tree (FST)
+extension to grow candidate graphs:
+<LI><A HREF = "GraphMLreader.java"><TT>GraphMLreader.java</TT></A>:
+Graph ML reader, loads a GraphML represented graph set into primary storage.
+<LI><A HREF = "GspanRME.java"><TT>GspanRME.java</TT></A>:
+LUCS-KDD implantation of Gspan Algorithm using Right Most Extension (RME)
+approach to growing candidate item sets:
+<LI><A HREF = "VertexTree.java"><TT>VertexTree.java</TT></A>:
+Binary Tree structure in which to store vertex (node) information.
+Each node is an instance of the class <TT>VertexTreeNode</TT>.
+Generated from input data. Tree alows fast look up to access values such as
+vertex support (the number of occasionsoccasion that an vertex/node appears in the
+transaction graph set, one count per graph).
+<LI><A HREF = "VertexTreeNode.java"><TT>VertexTreeNode</TT></A>:
+Binary tree node to hold graph vertex/node details.
+</OL>
+
+<P>The two graph mining application classes included here are as follows:</P>
+
+<OL>
+<LI><A HREF = "FSGtreeApp.java"><TT>FSGtreeApp.java</TT></A>:
+Graph mining application using Frequent Sub-Graph (FSG) tree extension 
+approach, as opposed to Right Most Extension (RME) approach.
+<LI><A HREF = "GspanApp.java"><TT>GspanApp.java</TT></A>:
+LUCS-KDD version of Yan and Han's gSpan algorithm using the Right Most 
+Extension (RME) strategy to grow candidate sub-graphs.
+</OL>      
+
+<!P>There is also a "tar ball" <A HREF = "decTree.tgz">decTree.tgz</A>
+that can be downloaded that includes all of the above source and application
+class files. It can be unpacked using <TT>tar -zxf tfpLink.tgz</TT>.</P>
+
+<BR>
+<a NAME = "compiling">
+<H3>2.1. Compiling</H3>
+<p>The graph mining software has been implemented in Java using the Java2 SDK
+(Software Development Kit) Version 1.5.0, which should therefore make it highly
+portable. The code does not require any special packages and thus can be
+compiled using the standard Java compiler:</p>
+
+<pre>
+javac *.java
+</pre>
+
+<BR>
+<a NAME = "documentation">
+<H3>2.2. Documentation</H3>
+
+<P>The code can be documented using <I>Java Doc</I>. First create a directory
+<TT>Documentation</TT> in which to place the resulting HTML pages and then type:</P>
+
+<PRE>
+javadoc -d Documentation/ *.java
+</PRE>
+
+<P>This will produce a hierarchy of WWW pages contained in the <TT>Document</TT>
+directory.</P>
+
+<br><hr><br>
+<a NAME ="running">
+<table BORDER-=0 WIDTH="100%" CELLPADDING=5 BGCOLOR="006699">
+<tr><td><h2><font color =" white">3. RUNNING THE SOFTWARE</font></h2></td>
+</table><BR>
+
+<p>When compiled the software can be invoked in the following manner using the
+Java interpreter:</p>
+
+<pre>
+java APPLICATION_CLASS_FILE_NAME -FINPUT_FILE_NAME
+</pre>
+
+<p>If you are planning to process a very large data set it is a good idea to
+grab some extra memory. For example:</p>
+
+<pre>
+java -Xms600m -Xmx600m APPLICATION_CLASS_FILE_NAME -FINPUT_FILE_NAME
+</pre>
+
+<br><hr><br>
+<A name = "detail">
+<table BORDER-=0 WIDTH="100%" CELLPADDING=5 BGCOLOR="006699">
+<tr><td><h2><font color =" white">4. Algorithm Description</font></h2></td>
+</table> <BR>
+
+<P><FONT COLOR="red">Still to do</FONT>.</P>
+
+<br><hr><br>
+<A name = "conclusions">
+<table BORDER-=0 WIDTH="100%" CELLPADDING=5 BGCOLOR="006699">
+<tr><td><h2><font color =" white">5. CONCLUSIONS</font></h2></td>
+</table> <BR>
+
+<P>The graph mining algorithms described here
+has been use successfully used by the LUCS-KDD research group for a variety of 
+applications.
+The software is available for non-commercial usage
+free of charge, however the author
+would appreciate appropriate acknowledgement. The following reference format
+for referring to the fuzzy Apiori-T implementation available
+from this WWW site
+is suggested:</P>
+
+<OL>
+<LI>Coenen, F. (2009), <I>The LUCS-KDD
+Graph Mining Software</I>,
+http://www.csc.liv.ac.uk/~frans/KDD/Software/GrpahMining/graphMiner.html,
+Department of Computer Science, The University of Liverpool, UK.
+</OL>
+
+<P>Should you discover any "bugs" or other problems within the software (or this 
+documentation), do not hesitate to contact 
+the author.</P>
+
+
+<br><hr><br>
+<p>Created and maintained by
+<a HREF="http://www.csc.liv.ac.uk/~frans/">Frans Coenen</a>.
+Last updated 16 December 2010</P>
+</body>
+</html>
+
